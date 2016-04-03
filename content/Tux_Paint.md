@@ -53,4 +53,4 @@ Asennus
 {{% /wrapper %}}
 
 *Teksti: pesasa* <br />
-*kuvakaappaukset: pesasa*
+*Kuvakaappaukset: pesasa*
