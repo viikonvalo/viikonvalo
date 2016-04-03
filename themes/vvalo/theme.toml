@@ -1,0 +1,10 @@
+name = "VVALO"
+license = "MIT"
+description = "Theme for Viikon VALO website."
+tags = ["blog"]
+features = ["blog", "themes"]
+min_version = 0.13
+
+[author]
+    name = "Petri Salmela"
+    homepage = "http://viikonvalo.fi/"

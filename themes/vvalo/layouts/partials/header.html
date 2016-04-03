@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+	<meta charset="utf-8">
+	{{ .Hugo.Generator }}
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
+	<link rel="alternate" href="{{ .Site.BaseURL }}/rss.xml" type="application/rss+xml" title="{{ .Site.Title }} RSS">
+
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/tomorrow-night.css" type="text/css" />
+	<script src="{{ .Site.BaseURL }}/scripts/modernizr-2.6.1.min.js"></script>
+	<script src="{{ .Site.BaseURL }}/scripts/jquery.min.js"></script>
+	<script src="{{ .Site.BaseURL }}/scripts/psgallery.js"></script>
+	<script src="{{ .Site.BaseURL }}/scripts/vvalo.js"></script>
+	<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+</head>
+<body>
+
+	<header id="header">
+		<div class="inner clearfix">
+			<h1 class="sitetitle"><a href="{{ .Site.BaseURL }}"><span>Viikon VALO</span></a></h1>
+		</div>
+	</header>

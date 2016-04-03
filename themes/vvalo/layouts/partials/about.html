@@ -1,0 +1,22 @@
+{{ $baseurl := .Site.BaseURL }}
+
+		<aside class="about">
+			<form name="search" action="//duckduckgo.com" method="get">
+		        <input type="hidden" value="viikonvalo.fi" name="sites"></input>
+		        <input type="hidden" value="1" name="kh"></input>
+		        <input type="hidden" value="1" name="kn"></input>
+		        <input type="hidden" value="1" name="kac"></input>
+				<input type="search" name="q" placeholder="Hae DuckDuckGolla" />
+		        <input type="hidden" value="b" name="k7"></input>
+		        <input type="hidden" value="%23000" name="k8"></input>
+		        <input type="hidden" value="m" name="km"></input>
+		        <input type="hidden" value="1" name="ko"></input>
+			</form>
+			<p><strong><em>Vapaita avoimen lähdekoodin ohjelmia vuoden jokaiselle viikolle!</em></strong></p>
+
+			<p>Viikonvalo.fi esittelee joka viikko jonkin vapaan avoimen lähdekoodin ohjelman taikka vapaata materiaalisisältöä tarjoavan palvelun.</p>
+
+			<p>Pysy kuulolla!</p>
+
+		    <a href="{{ $baseurl }}/rss.xml"><img src="http://coyote.dy.fi/phile/images/feed.png" alt="RSS" /></a>
+		</aside>

@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+	<div class="content-wrapper">
+		<section id="content">
+			<div class="inner">
+
+				{{ if eq .Type "post"}}
+				<h3 class="valonumber">Viikon VALO #{{ .Params.number }}</h3>
+				{{ end }}
+				<h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+				<div class="metadata">
+					{{ if eq .Type "post"}}
+					<div class="weekdate">
+						<div class="week">{{ .Params.week }}</div>
+						<div class="date">{{ .Date.Format "02.01.2006" }}</div>
+					</div>
+					{{ end }}
+					<div class="tags">
+						{{ range .Params.tags }}
+						<a href="{{ $baseurl }}/tags/{{. | urlize}}" data-tagname="{{.}}"><span>#{{.}}</span></a>
+						{{ end }}
+					</div>
+				</div>
+				{{ .Content }}
+				
+				<ul class="social-share">
+					<li><a href="https://twitter.com/intent/tweet?text=Viikon+VALO+%23{{ .Params.number }}+-+{{ .Title }}&amp;url={{ .Permalink }}&amp;hashtags=viikonvalo&amp;via=viikonvalo" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=600');return false;"><img src="{{ $baseurl }}/images/share-twitter.png" alt="Twiittaa" /></a></li>
+					<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&amp;t=Viikon+VALO+%23{{ .Params.number }}+-+{{ .Title}}" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"><img src="{{ $baseurl }}/images/share-facebook.png" alt="Facebook" /></a></li>
+					<li><a href="https://plus.google.com/share?url={{ .Permalink }}" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"><img src="{{ $baseurl }}/images/share-googleplus.png" alt="Google+" /></a></li>
+					<li><a href="http://sharetodiaspora.github.io/?title=Viikon%20VALO%20%23{{ .Params.number }}%20-%20{{ .Title }}&amp;url={{ .Permalink }}" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="{{ $baseurl }}/images/share-diaspora.png" alt="Diaspora" /></a></li>
+					<li><a href="http://www.reddit.com/submit?title=Viikon+VALO+%23{{ .Params.number }}+-+{{ .Title }}&amp;url={{ .Permalink }}&amp;kind=link" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="{{ $baseurl }}/images/share-reddit.png" alt="Reddit" /></a></li>
+					<li><a href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{ $baseurl }}/images/{{ .Params.pageimage }}&amp;description=Viikon+VALO+%23{{ .Params.number }}+-+{{ .Title}}" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"><img src="{{ $baseurl }}/images/share-pinterest.png" alt="Pinterest" /></a></li>
+					<li><a href="https://delicious.com/save?v=5&amp;provider=Viikon%20VALO&amp;noui&amp;jump=close&amp;url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="{{ $baseurl }}/images/share-delicious.png" alt="Delicious" /></a></li>
+					<li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title}}&amp;summary=Viikon+VALO+%23{{ .Params.number }}" target="_blank" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="{{ $baseurl }}/images/share-linkedin.png" alt="LinkedIn" /></a></li>
+				</ul>
+
+
+			</div>
+		</section>
+
+{{ partial "about.html" . }}		
+
+{{ partial "navigation.html" .}}
+
+	</div>
+
+{{ partial "footer.html" . }}

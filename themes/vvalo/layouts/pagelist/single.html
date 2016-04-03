@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+{{ $listtype := .Params.listtype}}
+
+	<div class="content-wrapper">
+		<section id="content">
+			<div class="inner">
+				
+				<h1 class="title">{{.Title}}</h1>
+				{{ .Content }}
+				<table>
+						<thead>
+								<tr><th>#</th><th>Otsikko</th><th>julkaistu</th><th>Viikko</th><th class="table-viewcount">Lukukertoja</th></tr>
+						</thead>
+						<tbody>
+						{{ range .Site.Pages.ByDate }}
+							{{ if eq .Type $listtype }}
+							<tr>
+								<td>{{ .Params.number }}</td>
+								<td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+								<td>{{ .Date.Format "02.01.2006" }}</td>
+								<td>{{ .Params.week }}</td>
+								<td class="table-viewcount"></td>
+							</tr>
+							{{ end }}
+						{{ end }}
+						</tbody>
+				</table>
+
+
+
+			</div>
+		</section>
+
+{{ partial "about.html" . }}		
+
+{{ partial "navigation.html" .}}
+
+	</div>
+
+{{ partial "footer.html" . }}

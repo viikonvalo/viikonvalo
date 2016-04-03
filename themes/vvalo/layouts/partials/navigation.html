@@ -1,0 +1,26 @@
+{{ $baseurl := .Site.BaseURL }}
+
+		<aside class="navi">
+			<nav>
+				<h1>Lisää tietoa</h1>
+				<ul>
+					{{ range .Site.Menus.main }}
+					<li><a href="{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span>{{ .Post }}</a></li>
+					{{ end }}
+				</ul>
+			</nav>
+			
+			<div class="linkkivinkit">
+				<h1>Linkkivinkit</h1>
+				<ul>
+					{{ range .Site.Menus.links }}
+					<li><a href="{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span>{{ .Post }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			
+			<div class="lukuvalo">
+				<h1>Lukuvalo</h1>
+				<p>Ääni- ja e-kirjoja poimittuina <a href="http://www.gutenberg.org/">Project Gutenbergistä</a><p>
+			</div>
+		</aside>

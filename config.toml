@@ -1,0 +1,60 @@
+baseurl = "/"
+languageCode = "fi-fi"
+title = "Viikon VALO"
+theme = "vvalo"
+Paginate = 10
+
+[[menu.main]]
+    name = "Ohjelmien neljä vapautta"
+    weight = 10
+    identifier = "neljavapautta"
+    url = "http://fsfe.org/projects/wsis/fs.fi.html"
+    
+[[menu.main]]
+    name = "Vapaa ohjelmisto (Wikipedia)"
+    weight = 20
+    identifier = "valowikipedia"
+    url = "http://fi.wikipedia.org/wiki/Vapaa_ohjelmisto"
+
+[[menu.links]]
+    name = "VALO-CD"
+    weight = 1
+    identifier = "valocd"
+    url = "http://valo-cd.fi/"
+
+[[menu.links]]
+    name = "Vapaasuomi.fi"
+    weight = 2
+    identifier = "vapaasuomi"
+    url = "http://vapaasuomi.fi"
+
+[[menu.links]]
+    name = "linux.fi-wiki"
+    weight = 3
+    identifier = "linuxfi"
+    url = "http://linux.fi"
+
+[[menu.links]]
+    name = "FLOSS Manuals"
+    weight = 4
+    identifier = "flossmanuals"
+    url = "http://fi.flossmanuals.net/"
+
+[[menu.links]]
+    name = "COSS ry"
+    weight = 5
+    identifier = "coss"
+    url = "http://coss.fi/"
+
+[[menu.links]]
+    name = "FSFE"
+    weight = 6
+    identifier = "fsfe"
+    url = "http://fsfe.org/"
+
+[[menu.links]]
+    name = "Jaa jotain -päivä"
+    weight = 7
+    identifier = "jaajotain"
+    url = "http://viikonvalo.fi/Jaa_jotain"
+

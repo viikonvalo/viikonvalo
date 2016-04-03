@@ -1,0 +1,9 @@
+<div class="psgallery">
+    
+    {{ if len .Inner }}
+        {{ .Inner }}
+    {{ else }}
+        {{ .Get 0}}
+    {{ end }}
+
+</div>

@@ -1,0 +1,56 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") 10 }}
+
+	<div class="content-wrapper">
+		<section id="content">
+			<div class="inner">
+				<div class="prevnextlinks">
+					{{ if $paginator.HasPrev }}
+					<a class="paginatorprevlink" href="{{ .Site.BaseURL }}/page/{{ sub .Paginator.PageNumber 1 }}">&lt;&lt; Uudemmat</a>
+					{{ end }}
+					{{ if $paginator.HasNext }}
+					<a class="paginatornextlink" href="{{ .Site.BaseURL }}/page/{{ add .Paginator.PageNumber 1 }}">Vanhemmat &gt;&gt;</a>
+					{{ end }}
+				</div>
+				<div id="posts">
+{{ range ($paginator).Pages }}
+					<article class="post">
+						<h3 class="valonumber">Viikon VALO #{{ .Params.number }}</h3>
+						<h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+						<div class="metadata">
+							<div class="weekdate">
+								<div class="week">{{ .Params.week }}</div>
+								<div class="date">{{ .Date.Format "02.01.2006" }}</div>
+							</div>
+							<div class="tags">
+								{{ range .Params.tags }}
+								<a href="{{ $baseurl }}/tags/{{. | urlize}}" data-tagname="{{.}}"><span>#{{.}}</span></a>
+								{{ end }}
+							</div>
+						</div>
+						<div class="excerpt">
+							{{ if .Params.pageimage }}<a href="{{ .RelPermalink }}"><img src="{{ $baseurl }}/images/{{ .Params.pageimage }}" class="leftimage" /></a>{{ end }}
+							{{ .Summary }}
+						</div>
+					</article>
+{{ end }}
+				</div>
+				<div class="prevnextlinks">
+					{{ if $paginator.HasPrev }}
+					<a class="paginatorprevlink" href="{{ .Site.BaseURL }}/page/{{ sub .Paginator.PageNumber 1 }}">&lt;&lt; Uudemmat</a>
+					{{ end }}
+					{{ if $paginator.HasNext }}
+					<a class="paginatornextlink" href="{{ .Site.BaseURL }}/page/{{ add .Paginator.PageNumber 1 }}">Vanhemmat &gt;&gt;</a>
+					{{ end }}
+				</div>
+			</div>
+		</section>
+
+{{ partial "about.html" . }}		
+
+{{ partial "navigation.html" .}}
+
+	</div>
+
+{{ partial "footer.html" . }}
