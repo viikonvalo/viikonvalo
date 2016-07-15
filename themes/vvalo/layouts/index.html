@@ -23,9 +23,14 @@
 								<div class="week">{{ .Params.week }}</div>
 								<div class="date">{{ .Date.Format "02.01.2006" }}</div>
 							</div>
-							<div class="tags">
-								{{ range .Params.tags }}
-								<a href="{{ $baseurl }}/tags/{{. | urlize}}" data-tagname="{{.}}"><span>#{{.}}</span></a>
+							<div class="alustat">
+								{{ range .Params.alustat }}
+								<a href="{{ $baseurl }}/alustat/{{. | urlize}}" data-tagname="{{.}}"><span>#{{.}}</span></a>
+								{{ end }}
+							</div>
+							<div class="tagit">
+								{{ range .Params.tagit }}
+								<a href="{{ $baseurl }}/tagit/{{. | urlize}}" data-categoryname="{{.}}"><span>#{{.}}</span></a>
 								{{ end }}
 							</div>
 						</div>

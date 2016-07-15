@@ -22,5 +22,9 @@
 			<div class="lukuvalo">
 				<h1>Lukuvalo</h1>
 				<p>Ääni- ja e-kirjoja poimittuina <a href="http://www.gutenberg.org/">Project Gutenbergistä</a><p>
+				{{ range where .Site.Pages "Type" "lukuvalolista" }}
+                                    {{ .Content }}
+				{{ end }}
+				<p><a href="{{ $baseurl }}/Lukuvalo">Lisää poimintoja...</a></p>
 			</div>
 		</aside>

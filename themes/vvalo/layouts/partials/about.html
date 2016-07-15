@@ -17,6 +17,8 @@
 			<p>Viikonvalo.fi esittelee joka viikko jonkin vapaan avoimen lähdekoodin ohjelman taikka vapaata materiaalisisältöä tarjoavan palvelun.</p>
 
 			<p>Pysy kuulolla!</p>
-
-		    <a href="{{ $baseurl }}/rss.xml"><img src="http://coyote.dy.fi/phile/images/feed.png" alt="RSS" /></a>
+			
+			{{ if .RSSlink }}
+			<a href="{{ .RSSlink }}"><img src="{{ .Site.BaseURL }}/images/feed.png" alt="RSS" /></a>
+			{{ end }}
 		</aside>

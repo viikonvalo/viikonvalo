@@ -1,13 +1,7 @@
-/*=================================*/
-/* Pico Default Theme
-/* By: Gilbert Pellegrom
-/* http: //dev7studios.com
-/*=================================*/
-
 /*@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);*/
-@import url(http://fonts.googleapis.com/css?family=Cantarell);
+@import url(//fonts.googleapis.com/css?family=Cantarell);
 /* @import url(http://fonts.googleapis.com/css?family=Ubuntu); */
-@import url(http://fonts.googleapis.com/css?family=Philosopher);
+@import url(//fonts.googleapis.com/css?family=Philosopher);
 
 @font-face {
     font-family: opendyslexic;
@@ -286,6 +280,32 @@ aside.navi h1 {
     font-weight: bold;
 }
 
+aside.navi nav ul {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+aside.navi nav ul li {
+    margin: 0;
+    padding: 0.4em 0.3em 0.4em 0.6em;
+    line-height: 1.3em;
+}
+
+
+aside.navi ul li:hover {
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 0.5em;
+}
+
+/*aside.navi nav ul li:nth-child(odd) {
+    background-color: rgba(255,255,255,0.4);
+}
+
+aside.navi nav ul li:nth-child(even) {
+    background-color: rgba(0,0,0,0.05);
+}*/
+
 aside.about {
     position: absolute;
     top: 0;
@@ -332,6 +352,20 @@ aside.about p.slogan {
     margin: 1em 0 1em;
 }
 
+#content .inner.categorylist article {
+    padding: 0.5em;
+    margin: 0.5em 0 0.5em;
+    border-radius: 0.5em;
+}
+
+#content .inner.categorylist article:nth-child(even) {
+    background-color: rgba(0,0,0,0.05);
+}
+
+#content .inner.categorylist article:nth-child(odd) {
+    background-color: rgba(255,255,255,0.3);
+}
+
 #content .inner blockquote {
     font-style: italic;
     background-color: rgba(255,255,255,0.5);
@@ -339,6 +373,17 @@ aside.about p.slogan {
     margin: 0.5em 1em;
     padding: 0.2em 1em;
     clear: left;
+}
+
+/* Taxonomy
+ ***********************************************/
+ul.taxonomylist {
+    line-height: 4em;
+    list-style: none;
+}
+
+ul.taxonomylist li {
+    display: inline-block;
 }
 
 /* Lukuvalo sivulista
@@ -415,6 +460,10 @@ aside.navi .lukuvalo a:visited {
     padding: 0 11em;
 }
 
+#content .inner.categorylist {
+    text-align: left;
+}
+
 #content .inner > p {
     margin-bottom: 1em;
 }
@@ -429,6 +478,21 @@ aside.navi .lukuvalo a:visited {
     text-shadow: 2px 2px 3px #888;
     border-bottom: 2px solid #fc0;
     margin: 0.5em 0 0;
+}
+
+#content .inner h1.categorytitle {
+    font-family: "Philosopher", arial, serif;
+    font-size: 300%;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #888;
+    margin: 0.5em 0 0;
+    text-align: center;
+    border-bottom: 2px solid #fc0;
+}
+
+#content .inner.categorylist h1.title {
+    border: none;
+    margin: 0 0 0.5em;
 }
 
 #content .inner h2.title {
@@ -476,6 +540,11 @@ aside.navi .lukuvalo a:visited {
     max-width: 200px;
     overflow: visible;
     line-height: 1.1em;
+}
+
+#content .inner.categorylist article:nth-child(odd) .leftimage {
+    float: right;
+    margin: 0 0 0.5em 1.2em;
 }
 
 #content .inner .leftimage img,
@@ -536,7 +605,7 @@ aside.navi .lukuvalo a:visited {
     border-radius: 0.3em;
     line-height: 1.6em;
     padding: 0.1em 0.5em;
-    margin: 0 0 0.2em 0.2em;
+    margin: 0 0 0.2em 0.4em;
 }
 
 #content .inner .metadata .week,
@@ -751,14 +820,25 @@ body.viewdate-12-06 #header .inner {
 
 /* Tags
  ********************/
-#content .inner .metadata .tags a {
+#content .inner .metadata .alustat:empty,
+#content .inner .metadata .tagit:empty {
+    display: none;
+}
+
+#content .inner .metadata .alustat a {
     display: inline-block;
     padding-top: 20px;
     min-width: 20px;
     text-decoration: none;
 }
 
-.metadata .tags a span {
+#content .inner .metadata .tagit a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.metadata .alustat a span,
+.metadata .tagit a span {
     text-decoration: none;
     font-size: 70%;
     font-family: monospace;
@@ -769,82 +849,82 @@ body.viewdate-12-06 #header .inner {
     padding: 0 0.1em;
 }
 
-#content .inner .metadata .tags a[data-tagname="Linux"],
-#content .inner .metadata .tags a[href$="Linux"] {
+#content .inner .metadata .alustat a[data-tagname="Linux"],
+#content .inner .metadata .alustat a[href$="Linux"] {
     background: transparent url("../images/Linux.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Windows"],
-#content .inner .metadata .tags a[href$="Windows"] {
+#content .inner .metadata .alustat a[data-tagname="Windows"],
+#content .inner .metadata .alustat a[href$="Windows"] {
     background: transparent url("../images/Windows.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Mac OS X"],
-#content .inner .metadata .tags a[href$="Mac OS X"],
-#content .inner .metadata .tags a[href$="Mac%20OS%20X"] {
+#content .inner .metadata .alustat a[data-tagname="Mac OS X"],
+#content .inner .metadata .alustat a[href$="Mac OS X"],
+#content .inner .metadata .alustat a[href$="Mac%20OS%20X"] {
     background: transparent url("../images/Mac.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Solaris"],
-#content .inner .metadata .tags a[href$="Solaris"] {
+#content .inner .metadata .alustat a[data-tagname="Solaris"],
+#content .inner .metadata .alustat a[href$="Solaris"] {
     background: transparent url("../images/Solaris.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="OpenBSD"],
-#content .inner .metadata .tags a[href$="OpenBSD"] {
+#content .inner .metadata .alustat a[data-tagname="OpenBSD"],
+#content .inner .metadata .alustat a[href$="OpenBSD"] {
     background: transparent url("../images/OpenBSD.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="FreeBSD"],
-#content .inner .metadata .tags a[href$="FreeBSD"] {
+#content .inner .metadata .alustat a[data-tagname="FreeBSD"],
+#content .inner .metadata .alustat a[href$="FreeBSD"] {
     background: transparent url("../images/FreeBSD.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="NetBSD"],
-#content .inner .metadata .tags a[href$="NetBSD"] {
+#content .inner .metadata .alustat a[data-tagname="NetBSD"],
+#content .inner .metadata .alustat a[href$="NetBSD"] {
     background: transparent url("../images/NetBSD.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="OS/2"],
-#content .inner .metadata .tags a[href$="OS/2"] {
+#content .inner .metadata .alustat a[data-tagname="OS/2"],
+#content .inner .metadata .alustat a[href$="OS/2"] {
     background: transparent url("../images/os2.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Windows Phone 7"],
-#content .inner .metadata .tags a[href$="Windows%20Phone%207"],
-#content .inner .metadata .tags a[href$="Windows Phone 7"] {
+#content .inner .metadata .alustat a[data-tagname="Windows Phone 7"],
+#content .inner .metadata .alustat a[href$="Windows%20Phone%207"],
+#content .inner .metadata .alustat a[href$="Windows Phone 7"] {
     background: transparent url("../images/wp7.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Android"],
-#content .inner .metadata .tags a[href$="Android"] {
+#content .inner .metadata .alustat a[data-tagname="Android"],
+#content .inner .metadata .alustat a[href$="Android"] {
     background: transparent url("../images/Android.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="iOS"],
-#content .inner .metadata .tags a[href$="iOS"] {
+#content .inner .metadata .alustat a[data-tagname="iOS"],
+#content .inner .metadata .alustat a[href$="iOS"] {
     background: transparent url("../images/ios.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="PC-BSD"],
-#content .inner .metadata .tags a[href$="PC-BSD"] {
+#content .inner .metadata .alustat a[data-tagname="PC-BSD"],
+#content .inner .metadata .alustat a[href$="PC-BSD"] {
     background: transparent url("../images/Pc-bsd.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="SailfishOS"],
-#content .inner .metadata .tags a[href$="SailfishOS"] {
+#content .inner .metadata .alustat a[data-tagname="SailfishOS"],
+#content .inner .metadata .alustat a[href$="SailfishOS"] {
     background: transparent url("../images/SailfishOS.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Maemo"],
-#content .inner .metadata .tags a[href$="Maemo"] {
+#content .inner .metadata .alustat a[data-tagname="Maemo"],
+#content .inner .metadata .alustat a[href$="Maemo"] {
     background: transparent url("../images/Maemo.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="AmigaOS"],
-#content .inner .metadata .tags a[href$="AmigaOS"] {
+#content .inner .metadata .alustat a[data-tagname="AmigaOS"],
+#content .inner .metadata .alustat a[href$="AmigaOS"] {
     background: transparent url("../images/amigaos.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Blackberry"],
-#content .inner .metadata .tags a[href$="Blackberry"] {
+#content .inner .metadata .alustat a[data-tagname="Blackberry"],
+#content .inner .metadata .alustat a[href$="Blackberry"] {
     background: transparent url("../images/blackberry.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Haiku"],
-#content .inner .metadata .tags a[href$="Haiku"] {
+#content .inner .metadata .alustat a[data-tagname="Haiku"],
+#content .inner .metadata .alustat a[href$="Haiku"] {
     background: transparent url("../images/Haiku.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="BeOS"],
-#content .inner .metadata .tags a[href$="BeOS"] {
+#content .inner .metadata .alustat a[data-tagname="BeOS"],
+#content .inner .metadata .alustat a[href$="BeOS"] {
     background: transparent url("../images/BeOS.png") center top no-repeat;
 }
-#content .inner .metadata .tags a[data-tagname="Käyttöjärjestelmä"],
-#content .inner .metadata .tags a[href$="Käyttöjärjestelmä"] {
+#content .inner .metadata .alustat a[data-tagname="Käyttöjärjestelmä"],
+#content .inner .metadata .alustat a[href$="Käyttöjärjestelmä"] {
     background: transparent url("../images/computers.png") center top no-repeat;
 }
 #content .inner h1 a,

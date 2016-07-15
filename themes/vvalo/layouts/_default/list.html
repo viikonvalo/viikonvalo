@@ -1,13 +1,33 @@
+{{ $baseurl := .Site.BaseURL }}
 {{ partial "header.html" . }}
 
-	<main role="main">
-		<h1 class="list-title">{{ .Title }}</h1>
+	<div class="content-wrapper">
+		<section id="content">
+			<div class="inner categorylist">
+				
+				<h1 class="categorytitle">{{.Title}}</h1>
+
 {{ range .Data.Pages }}
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
+		<article class="post">
+			<div class="metadata">
+				<div class="weekdate">
+					<div class="week">{{ .Params.week }}</div>
+					<div class="date">{{ .Date.Format "02.01.2006" }}</div>
+				</div>
+			</div>
+			<h1 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+			<div class="excerpt">
+				{{ if .Params.pageimage }}<a href="{{ .RelPermalink }}"><img src="{{ $baseurl }}/images/{{ .Params.pageimage }}" class="leftimage" /></a>{{ end }}
+				{{ if .Params.description }}<p>{{ .Params.description}}</p>{{ end }}
+			</div>
 		</article>
 {{ end }}
-	</main>
+			</div>
+		</section>
 
+{{ partial "about.html" . }}		
+
+{{ partial "navigation.html" .}}
+
+	</div>
 {{ partial "footer.html" . }}

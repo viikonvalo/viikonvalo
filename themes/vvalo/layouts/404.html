@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+	<div class="content-wrapper">
+		<section id="content">
+			<div class="inner">
+   <h1 id="title">{{ .Title }}</h1>
+
+
+			</div>
+		</section>
+
+{{ partial "about.html" . }}		
+
+{{ partial "navigation.html" .}}
+
+	</div>
+
+{{ partial "footer.html" . }}

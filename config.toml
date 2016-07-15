@@ -4,6 +4,23 @@ title = "Viikon VALO"
 theme = "vvalo"
 Paginate = 10
 
+[taxonomies]
+alusta = "alustat"
+tag = "tagit"
+category = "categories"
+
+[[menu.main]]
+    name = "Alustat"
+    weight = 8
+    identifier = "alustat"
+    url = "/alustat/"
+    
+[[menu.main]]
+    name = "Tagit"
+    weight = 9
+    identifier = "tagit"
+    url = "/tagit/"
+    
 [[menu.main]]
     name = "Ohjelmien neljä vapautta"
     weight = 10
