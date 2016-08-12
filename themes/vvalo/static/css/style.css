@@ -939,6 +939,15 @@ body.viewdate-12-06 #header .inner {
     margin: 0.3em 0 0;
 }
 
+/****************************************
+ * Mobimenu
+ ****************************************/
+.mobinavi {display: none;}
+
+.mobinavi input#mobimenucheck {
+    display: none;
+}
+
 /*******************************************
  * Pagination
  *******************************************/
@@ -968,7 +977,100 @@ body.viewdate-12-06 #header .inner {
 }
 
 /* #### Mobile Phones Portrait or Landscape #### */
-@media screen and (max-device-width:640px){
+@media screen and (max-width:640px){
+    
+    .navi nav,
+    .navi .linkkivinkit {
+        display: none;
+    }
+    
+    body {
+        position: relative;
+        padding-top: 50px;
+    }
+    
+    .mobinavi {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255,204,0,0.93);
+        border-bottom: 1px solid #999;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
+    
+    .mobinavi .mobibuttonbox {
+        text-align: right;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .mobinavi .mobibuttonbox form {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        flex-grow: 1;
+        height: 30px;
+    }
+
+    .mobinavi .mobibuttonbox form input[type="search"] {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 15px;
+        display: none;
+    }
+    
+    .mobinavi .mobibuttonbox label {
+        cursor: pointer;
+        display: inline-block;
+        flex-grow: 0;
+        margin-left: 25px;
+    }
+    
+    .mobinavi nav,
+    .mobinavi .linkkivinkit {
+        display: none;
+    }
+
+    .mobinavi #mobimenucheck:checked + .mobibuttonbox form input[type="search"] {
+        display: inline-block;
+    }
+    
+    .mobinavi #mobimenucheck:checked + div + nav,
+    .mobinavi #mobimenucheck:checked + div + nav + .linkkivinkit {
+        display: block;
+    }
+    
+    .mobinavi h1 {
+        font-size: 160%;
+        font-weight: bold;
+        padding: 0 0.2em;
+        /*border-top: 1px solid #999;*/
+        background-color: rgba(255,255,255,0.5);
+    }
+    
+    .mobinavi ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 150%;
+        margin-bottom: 1em;
+    }
+    
+    .mobinavi li a {
+        display: block;
+        color: black;
+        line-height: 1.5em;
+        padding: 0.2em 0.5em;
+        border-bottom: 1px solid #666;
+    }
+    
+    .mobinavi li a:hover {
+        background-color: rgba(255,255,255,0.5);
+    }
+    
     #header {
 	padding: 0.5em 0;
     }

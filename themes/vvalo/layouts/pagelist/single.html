@@ -10,7 +10,7 @@
 				{{ .Content }}
 				<table>
 						<thead>
-								<tr><th>#</th><th>Otsikko</th><th>julkaistu</th><th>Viikko</th><th class="table-viewcount">Lukukertoja</th></tr>
+								<tr><th>#</th><th>Otsikko</th><th>julkaistu</th><th>Viikko</th><!--<th class="table-viewcount">Lukukertoja</th>--></tr>
 						</thead>
 						<tbody>
 						{{ range .Site.Pages.ByDate }}
@@ -20,7 +20,7 @@
 								<td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
 								<td>{{ .Date.Format "02.01.2006" }}</td>
 								<td>{{ .Params.week }}</td>
-								<td class="table-viewcount"></td>
+								<!--<td class="table-viewcount"></td>-->
 							</tr>
 							{{ end }}
 						{{ end }}
@@ -37,5 +37,7 @@
 {{ partial "navigation.html" .}}
 
 	</div>
+
+{{ partial "mobinavi.html" .}}
 
 {{ partial "footer.html" . }}

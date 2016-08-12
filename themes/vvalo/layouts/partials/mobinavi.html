@@ -1,0 +1,37 @@
+{{ $baseurl := .Site.BaseURL }}
+
+		<aside class="mobinavi">
+			<input id="mobimenucheck" type="checkbox">
+			<div class="mobibuttonbox">
+				<form name="mobisearch" action="//duckduckgo.com" method="get">
+					<input type="hidden" value="viikonvalo.fi" name="sites"></input>
+					<input type="hidden" value="1" name="kh"></input>
+					<input type="hidden" value="1" name="kn"></input>
+					<input type="hidden" value="1" name="kac"></input>
+					<input type="search" name="q" placeholder="Hae DuckDuckGolla" />
+					<input type="hidden" value="b" name="k7"></input>
+					<input type="hidden" value="%23000" name="k8"></input>
+					<input type="hidden" value="m" name="km"></input>
+					<input type="hidden" value="1" name="ko"></input>
+				</form>
+
+				<label for="mobimenucheck" class="menubutton"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="30" height="30" viewBox="0 0 30 30" class="pssicon pssicon-menu"><path style="stroke: none;" d="M5 4 l20 0 a2.5 2.5 0 0 1 0 5 l-20 0 a2.5 2.5 0 0 1 0 -5z m0 9 l20 0 a2.5 2.5 0 0 1 0 5 l-20 0 a2.5 2.5 0 0 1 0 -5z m0 9 l20 0 a2.5 2.5 0 0 1 0 5 l-20 0 a2.5 2.5 0 0 1 0 -5z"></path></svg></label>
+			</div>
+			<nav>
+				<h1>Lisää tietoa</h1>
+				<ul>
+					{{ range .Site.Menus.main }}
+					<li><a href="{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span>{{ .Post }}</a></li>
+					{{ end }}
+				</ul>
+			</nav>
+			
+			<div class="linkkivinkit">
+				<h1>Linkkivinkit</h1>
+				<ul>
+					{{ range .Site.Menus.links }}
+					<li><a href="{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span>{{ .Post }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+		</aside>

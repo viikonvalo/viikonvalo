@@ -9,7 +9,7 @@
                                 <ul class="taxonomylist">
                                 {{ $data := .Data }}
                                 {{ range $key, $value := .Data.Terms }}
-                                    <li style="font-size: {{ add 100 (mul 5 (len $value)) }}%;"><a href="{{ $key | urlize }}" title="{{ len $value }}">{{ $key }}</a></li>
+                                    <li style="font-size: {{ add 100 (mul 2 (len $value)) }}%;"><a href="{{ $key | urlize }}" title="{{ len $value }}">{{ $key }}</a></li>
                                 {{ end }}
                                 </ul>
 			</div>
@@ -20,5 +20,7 @@
 {{ partial "navigation.html" .}}
 
 	</div>
+
+{{ partial "mobinavi.html" .}}
 
 {{ partial "footer.html" . }}
