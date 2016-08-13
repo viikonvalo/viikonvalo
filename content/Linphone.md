@@ -4,8 +4,8 @@ Title = "Linphone"
 Description = "Linphone on vapaa Internet-puhelinsovellus."
 Week = "1x24"
 Number = "24"
-Alustat = ["Linux","Mac OS X","Windows","Android","iOS"]
-Tagit = ["Blackberry","Internet","Viestintä"]
+Alustat = ["Linux","Mac OS X","Windows","Android","iOS","Blackberry"]
+Tagit = ["Internet","Viestintä"]
 Type = "post"
 Author = "pesasa"
 Pageimage = "valo24-Linphone.png"
@@ -69,4 +69,20 @@ Käyttöohjeet
 
 *Teksti: pesasa* <br />
 *kuvakaappaukset: pesasa*
+
+{{% wrapper class="comments" %}}
+Kommentit
+---------
+
+Android
+:   Anonymous 13. Kesäkuu 2011 - 18:59
+:   HTC DHD:llä yritin etsiä tuota ohjelmaa Marketista,
+    mutta ei löytynyt millään hakusanalla. Kummallista.
+    Piti mennä läppärillä Marketin sivuille ja sitä kautta
+    asentaa ohjelma puhelimeen.
+    
+    Nyt pitäisi vaan saada joku tuttu käyttämään tätä, että
+    olisi joku jolle soittaa :/
+
+{{% /wrapper %}}
 

@@ -435,3 +435,15 @@ VALO-CD
 
 *Teksti: Pesasa*
 
+{{% wrapper class="comments" %}}
+Kommentit
+---------
+
+PDF vapaa tiedostomuoto
+:   Anonymous 26. Maaliskuu 2012 - 14:20
+:   PDF vapaa tiedostomuoto? Kovasti Adobe sitä yrittää estää käytettävän,
+    tarjoilee ISOlle speksejä, joissa sanotaan, ettei niitä seuraamalla
+    pysty tekemään PDFää täysin oikein näyttävää sovellusta jne. Aika
+    kaukaa haettua, että tuo olisi oikeasti vapaa... 
+
+{{% /wrapper %}}

@@ -4,8 +4,8 @@ Title = "GNU Emacs"
 Description = "GNU Emacs on tekstieditori jolla voi tehdä kaiken. Jos jotain ei voi Emacsilla tehdä, se ei ole tekemisen arvoista."
 Week = "1x46"
 Number = "46"
-Alustat = ["Linux","Windows","Mac OS X","FreeBSD","OpenBSD","NetBSD","Solaris","Aix","HP-UX","Irix","OpenVMS"]
-Tagit = ["Dos","Toimisto","Ohjelmointi","Tekstinkäsittely","Tekstieditori","Teksti"]
+Alustat = ["Linux","Windows","Mac OS X","FreeBSD","OpenBSD","NetBSD","Solaris","Aix","HP-UX","Irix","OpenVMS","Dos"]
+Tagit = ["Toimisto","Ohjelmointi","Tekstinkäsittely","Tekstieditori","Teksti"]
 Type = "post"
 Author = "Taleman"
 Pageimage = "valo46-gnu_emacs.png"
@@ -132,3 +132,12 @@ Linkkejä:
 *Teksti: Taleman* <br />
 *kuvakaappaukset: Taleman*
 
+{{% wrapper class="comments" %}}
+Kommentit
+---------
+
+Emacs, XKCD ja perhoset
+:   Anonymous 17. Joulukuu 2011 - 4:50
+:   <http://xkcd.com/378/>
+
+{{% /wrapper %}}

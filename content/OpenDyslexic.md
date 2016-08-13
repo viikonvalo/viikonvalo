@@ -89,3 +89,12 @@ Muita vastaavia
 {{% /wrapper %}}
 
 
+{{% wrapper class="comments" %}}
+Kommentit
+---------
+
+Androidissakin
+:   Anonymous 15. Maaliskuu 2015 - 10:07
+:   Kirjasimen sai asennettua androidiin, ja FBReader osasi käyttää sitä.
+
+{{% /wrapper %}}

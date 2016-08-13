@@ -12,8 +12,8 @@ Pageimage = "valo171-kevyet_linux-jakelut.png"
 +++
 
 
-'''Kevyellä Linux-käyttöjärjestelmällä voi antaa lisäaikaa vielä hiukan
-vanhemmallekin tietokoneelle. '''
+**Kevyellä Linux-käyttöjärjestelmällä voi antaa lisäaikaa vielä hiukan
+vanhemmallekin tietokoneelle. **
 
 ![ ](/images/valo171-kevyet_linux-jakelut.png "fig:valo171-kevyet_linux-jakelut.png")
 Itsenäisistä osista koostuvan rakenteensa, eli modulaarisuutensa, vuoksi
@@ -152,6 +152,10 @@ Seuraava versio
 Suljetut tiedostomuodot ja multimediakoodekit
 :   Asentamalla paketti `ubuntu-restricted-extras`
 
+{{% wrapper class="psgallery" %}}
+-   [Lubuntun työpöytä.](/images/lxde-13.jpg)
+{{% /wrapper %}}
+
 Xubuntu
 -------
 
@@ -190,6 +194,17 @@ Seuraava versio
 
 Suljetut tiedostomuodot ja multimediakoodekit
 :   Asentamalla paketti `ubuntu-restricted-extras`
+
+{{% wrapper class="psgallery" %}}
+-   [Asennus-CD:n käynnistäminen käynnistysvalikosta live-tilaan.
+    Samalla voi valita käytettävän kielen ja
+    näppäimistöasettelun.](/images/kevyet\_linux-jakelut-1-bootti.jpg)
+-   [Xubuntun live-CD käynnissä. Järjestelmää voi käyttää sellaisenaan
+    tai aloittaa asennuksen työpöydällä olevalla
+    kuvakkeella.](/images/kevyet\_linux-jakelut-2-live.jpg)
+-   [Xubuntun työpöytä.](/images/kevyet\_linux-jakelut-3-xubuntu.jpg)
+{{% /wrapper %}}
+
 
 Linux Mint - Xfce-versio
 ------------------------
@@ -235,6 +250,11 @@ Seuraava versio
 Suljetut tiedostomuodot ja multimediakoodekit
 :   Valmiiksi asennettuina, kun valitsee oikean asennuslevykuvan
 
+{{% wrapper class="psgallery" %}}
+-   [Linux Mintin XFCE-version
+    työpöytä.](/images/kevyet\_linux-jakelut-4-xfce.jpg)
+{{% /wrapper %}}
+
 Linux Mint - MATE-versio
 ------------------------
 
@@ -273,6 +293,11 @@ Seuraava versio
 
 Suljetut tiedostomuodot ja multimediakoodekit
 :   Valmiiksi asennettuina, kun valitsee oikean asennuslevykuvan
+
+{{% wrapper class="psgallery" %}}
+-   [Linux Mintin MATE-version
+    työpöytä.](/images/kevyet\_linux-jakelut-5-mate.jpg)
+{{% /wrapper %}}
 
 Elementary OS
 -------------
@@ -313,30 +338,47 @@ Seuraava versio
 Esittelyvideo
 :   [Introducing Luna](https://www.youtube.com/watch?v=pWoo4xv-qoA)
 
-Ubuntu-pohjaisiin Linux-järjestelmiin tutustumisessa voi käyttää
-hyödyksi soveltuvin osin [Ubuntu
-tutuksi](http://fi.wikibooks.org/wiki/Ubuntu_tutuksi) -wikikirjaa.
-
 {{% wrapper class="psgallery" %}}
--   [Asennus-CD:n käynnistäminen käynnistysvalikosta live-tilaan.
-    Samalla voi valita käytettävän kielen ja
-    näppäimistöasettelun.](/images/kevyet\_linux-jakelut-1-bootti.jpg)
--   [Xubuntun live-CD käynnissä. Järjestelmää voi käyttää sellaisenaan
-    tai aloittaa asennuksen työpöydällä olevalla
-    kuvakkeella.](/images/kevyet\_linux-jakelut-2-live.jpg)
--   [Lubuntun työpöytä.](/images/lxde-13.jpg)
--   [Xubuntun työpöytä.](/images/kevyet\_linux-jakelut-3-xubuntu.jpg)
--   [Linux Mintin XFCE-version
-    työpöytä.](/images/kevyet\_linux-jakelut-4-xfce.jpg)
--   [Linux Mintin MATE-version
-    työpöytä.](/images/kevyet\_linux-jakelut-5-mate.jpg)
 -   [Elementary OS:n työpöytä ja ubuntu-restrected-extras -paketin
     asennus.](/images/kevyet\_linux-jakelut-6-elementary.jpg)
 -   [Elementary OS asennettuna vuoden 2008 Asus
     EeePC-miniläppäriin.](/images/kevyet\_linux-jakelut-7.jpg)
 {{% /wrapper %}}
 
+Ubuntu-pohjaisiin Linux-järjestelmiin tutustumisessa voi käyttää
+hyödyksi soveltuvin osin [Ubuntu
+tutuksi](http://fi.wikibooks.org/wiki/Ubuntu_tutuksi) -wikikirjaa.
+
 *Teksti: Pesasa* <br />
 *Kuvakaappaukset: Pesasa*
 
 
+{{% wrapper class="comments" %}}
+Kommentit
+---------
+
+Linux Mint linkit
+:   Anonymous 6. Huhtikuu 2014 - 22:08
+:   Aloittelijoille ei kannata tarjota lyhyen tuoen testiversioita,
+    kuten Linux Mint 16, vaan ainoastaan pitkän tuen versioita, kuten
+    Mint 13 <http://www.linuxmint.com/release.php?id=18> Suositeltavin
+    aloittelijoille on Linux Mint 13 Mate 32-bit
+    <http://www.linuxmint.com/edition.php?id=103> Ohjeet Mint 13:lle
+    <http://linuxmint.com/rel_maya.php>
+
+Kiitos Kommentista.
+:   pesasa 6. Huhtikuu 2014 - 22:20
+:   Kiitos kommentista. Olet oikeassa, että aloittelijoiden kannattaa lähteä 
+    liikkeelle pitkään tuetulla versiolla, kuten tekstissä painotinkin. Vaihdoin 
+    latauslinkkien kohdalla vinkkaamasi linkin. Jos joku haluaa asentaa lyhyemmällä 
+    tuella olevan version, niin sen löytää kyllä Linux Mintin sivuilta. Ja runsaan 
+    kuukauden päästähän pitäisi ollakin pitkään tuettu versio siellä 
+    download-sivulla.
+
+Linux Mint 17 Qiana
+:   pesasa 1. Heinäkuu 2014 - 18:29
+:   Ja nythän onkin jo julkaistu Linux Mintin seuraava pitkään tuettu
+    versio 17 (Qiana). Se pohjautuu Ubuntun pitkään tuettuun versioon
+    14.04. <http://linuxmint.com/>
+
+{{% /wrapper %}}

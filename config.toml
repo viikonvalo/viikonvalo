@@ -1,4 +1,5 @@
-baseurl = "/"
+#baseurl = "/viikonvalo/"
+baseurl = "http://viikonvalo.fi"
 languageCode = "fi-fi"
 title = "Viikon VALO"
 theme = "vvalo"

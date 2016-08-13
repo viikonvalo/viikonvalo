@@ -5,13 +5,15 @@
 		<section id="content">
 			<div class="inner">
 				
-				<h1 class="title">{{.Title}}</h1>
-                                <ul class="taxonomylist">
-                                {{ $data := .Data }}
-                                {{ range $key, $value := .Data.Terms }}
-                                    <li style="font-size: {{ add 100 (mul 2 (len $value)) }}%;"><a href="{{ $key | urlize }}" title="{{ len $value }}">{{ $key }}</a></li>
-                                {{ end }}
-                                </ul>
+				<h1 class="title">
+					{{.Title}}
+				</h1>
+				<ul class="taxonomylist">
+				{{ $data := .Data }}
+				{{ range $key, $value := .Data.Terms }}
+					<li style="font-size: {{ add 100 (mul 2 (len $value)) }}%;"><a href="{{ $key | urlize }}" title="{{ len $value }}">{{ $key }}</a></li>
+				{{ end }}
+				</ul>
 			</div>
 		</section>
 

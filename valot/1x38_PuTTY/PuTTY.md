@@ -129,3 +129,15 @@ Käyttöohjeet
 *Teksti: Taleman* <br />
 *kuvakaappaukset: Taleman*
 
+{{% wrapper class="comments" %}}
+Kommentit
+---------
+
+Myös SSH-tunnelointi mahdollista
+:   Taleman 22. Syyskuu 2011 - 18:44
+:   En muistanut artikkelia kirjoittaessani mainita: SSH-tunnelin saa
+    tehtyä komennon plink avulla. Tällöin paikallisverkossa A oleva
+    Windows-kone saadaan toimimaan ikään kuin se olisi paikallisverkossa B,
+    kun ensin on luotu tunneli näiden verkkojen välille. 
+
+{{% /wrapper %}}

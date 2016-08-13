@@ -85,7 +85,7 @@ Muita vastaavia
 :   [DD-WRT](http://dd-wrt.com)
 
 {{% wrapper class="psgallery" %}}
--   [OpenWRT tervehtii <ssh:lla> sisään kirjautunutta käyttäjää Zyxelin
+-   [OpenWRT tervehtii ssh:lla sisään kirjautunutta käyttäjää Zyxelin
     tukiasemassa.](/images/openwrt-1.jpg)
 -   [OpenWRT:n kotisivu.](/images/openwrt-2.jpg)
 -   [OpenWRT:n oma käännösympäristö on lisensoitu GNU GPL -lisenssillä.
@@ -97,3 +97,12 @@ Muita vastaavia
 *Kuvakaappaukset: Pesasa*
 
 
+{{% wrapper class="comments" %}}
+Kommentit
+---------
+
+Yksi pienistä reitittimistä
+:   Anonymous 26. Huhtikuu 2015 - 15:16
+:   <http://www.dx.com/s/GL.iNet>
+
+{{% /wrapper %}}

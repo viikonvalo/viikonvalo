@@ -62,3 +62,12 @@ Asennus
 *Teksti: oma pesasa* <br />
 *kuvakaappaukset: pesasa*
 
+{{% wrapper class="comments" %}}
+Kommentit
+---------
+
+EI MONOa!
+:   Anonymous 28. Huhtikuu 2011 - 5:11
+:   EI EI EI. Taas mono:n vaativa softa! Proprietary! Patenttiansa! Prkl. 
+
+{{% /wrapper %}}
