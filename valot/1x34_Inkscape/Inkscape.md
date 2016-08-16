@@ -148,7 +148,7 @@ svg-muotoisen esitysgrafiikan teon. JessyInkillä tehty esitys voi
 sisältää sivujen vaihtojen ja vaiheittain paljastuvien elementtien
 lisäksi erilaisia efektejä mukaan lukien katselualueen kierto sekä
 zoomaus sisään ja ulos. JessyInkin toimintoihin voi tutustua
-[malliesityksessä](files/JessyInk_1_5_5_showcase.svg).
+[malliesityksessä](http://viikonvalo.fi/files/JessyInk_1_5_5_showcase.svg).
 Inkscapella ja JessyInk-laajennoksella tehdyn svg-esityksen voi avata
 nykyaikaisella www-selaimella ja näyttää yleisölle. Tiedoston voi
 halutessaan myös upottaa suoraan www-sivulle. Etuna tällaisella

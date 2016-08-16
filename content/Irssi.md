@@ -98,7 +98,7 @@ Kotisivu
 :   <http://irssi.org>
 
 Lisenssi
-:   [GNU GPL](GNU GPL "wikilink")
+:   [GNU GPL](GNU_GPL "wikilink")
 
 Toimii seuraavilla alustoilla
 :   Linux, Mac OS X, Solaris, Windows

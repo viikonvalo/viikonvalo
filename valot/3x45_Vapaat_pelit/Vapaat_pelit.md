@@ -45,7 +45,7 @@ viikon valoina.
 |1x41            |[SuperTuxKart](SuperTuxKart)                                 |  #41      |
 |1x42            |[X-Moto](X-Moto)                                             |  #42      |
 |2x06            |[The Battle for Wesnoth](The_Battle_for_Wesnoth)             |  #58      |
-|2x10            |[Blobwars](Blobwars)                                         |  #62      |
+|2x10            |[Blobwars](Blob_Wars)                                        |  #62      |
 |2x34            |[Hedgewars](Hedgewars)                                       |  #86      |
 |2x38            |[TripleA](TripleA)                                           |  #90      |
 |3x14            |[KeepScore](KeepScore)                                       |  #118     |

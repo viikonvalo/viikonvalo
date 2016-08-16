@@ -40,7 +40,7 @@ Kotisivu:
 :    <http://code.google.com/p/clementine-player/>
 
 Lisenssi:
-:    [GNU GPLv](GNU GPL "wikilink")3
+:    [GNU GPLv](GNU_GPL "wikilink")3
 
 Toimii seuraavilla alustoilla:
 :    Linux, Windows, Mac OS X

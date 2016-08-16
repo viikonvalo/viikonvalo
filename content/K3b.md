@@ -54,7 +54,7 @@ video-DVD:n ISO-levykuva.
 Video-DVD:n voi kasata K3b:n projektina keräämällä kaikki tarvittavat
 tiedostot oikeanlaiseen hakemistorakenteeseen. Helpompaa DVD-videon
 tekeminen kuitenkin on luomalla se
-[KMediaFactorilla](KMediaFactor) joko K3b-projektina, jolloin
+[KMediaFactorilla](KMediaFactory) joko K3b-projektina, jolloin
 projektitiedoston voi avata suoraan K3b:ssä ja tarvittaessa muokata
 sitä, tai valmiina ISO-levykuvana, jonka voi K3b:llä polttaa suoraan
 levylle.

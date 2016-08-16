@@ -39,7 +39,7 @@ OpenShotin käyttöliittymä koostuu kolmesta osiosta:
     **[aikajana](http://vimeo.com/29131615)**, jolle käytettyjä video-,
     ääni- ja kuvatiedostoja voi sijoitella.
 
-![](Charles_Chaplin.png "fig:Charles_Chaplin.png") Yksinkertaisimmillaan
+![](/images/Charles_Chaplin.png "fig:Charles_Chaplin.png") Yksinkertaisimmillaan
 [videon editointi tapahtuu seuraavasti](http://vimeo.com/34708256).
 Ensin aloitetaan uusi projekti, eli valitaan projektille nimi ja
 tallennuskansio, kerrotaan videotuotoksen arvioitu pituus sekä valitaan
@@ -80,7 +80,7 @@ etenee siten, että ylemmän raidan kuva muuttuu läpinäkyvästä vähitellen
 näkyväksi siirtymäkuvan harmaasävyjen mukaan. Näin myös omien
 siirtymäefektien tekeminen on varsin helppoa.
 
-![](TrinitySquare_Sepia_Film_Strip.png "fig:TrinitySquare_Sepia_Film_Strip.png")
+![](/images/TrinitySquare_Sepia_Film_Strip.png "fig:TrinitySquare_Sepia_Film_Strip.png")
 Tehosteet puolestaan ovat video- tai äänileikkeen sisältöön luotavia
 muunnoksia. Kuvaan voidaan esimerkiksi lisätä satunnaisia naarmuja ja
 tärinää sekä muuttaa sen värit seepiaksi, jolloin video saadaan

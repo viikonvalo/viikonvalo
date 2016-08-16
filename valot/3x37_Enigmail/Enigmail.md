@@ -29,7 +29,7 @@ avainten hallintaan, sähköpostin salaamiseen ja allekirjoittamiseen,
 salattujen viestien avaamiseen ja allekirjoitusten tarkistamiseen sekä
 luottamusverkoston rakentamiseen.
 
-[Thunderbird](Mozilla Thunderbird)-sähköpostiohjelman
+[Thunderbird](Thunderbird)-sähköpostiohjelman
 lisäosana Enigmailin asentaminen vaatii luonnollisesti ensin
 Thunderbirdin asentamisen. Tämän lisäksi se vaatii myöskin
 [GnuPG](GnuPG):n toimiakseen. Enigmailin asennus tapahtuu
@@ -103,7 +103,7 @@ Asennus
 
 VALO-CD
 :   Windows-koneille [Mozilla
-    Thunderbird](Mozilla Thunderbird),
+    Thunderbird](Thunderbird),
     [GnuPG](GnuPG) sekä Enigmail löytyvät kaikki myös
     [VALO-CD:ltä](http://www.valo-cd.fi/ilmainen_thunderbird).
 

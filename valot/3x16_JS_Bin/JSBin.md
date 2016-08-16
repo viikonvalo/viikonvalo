@@ -80,7 +80,7 @@ ja Javascript-koodiksi. Bin on myös mahdollista ladata itselleen yhtenä
 html-tiedostona, joka sisältää tyylisäännöt ja Javascript-koodin.
 
 JS Bin tukee myös syntaksin korostusta sekä [Zen
-Coding](Zen Coding "wikilink") -lyhenteiden käyttöä.
+Coding](Zen_Coding "wikilink") -lyhenteiden käyttöä.
 
 JS Bin on alun perin toteutettu PHP-kielellä, mutta sen kehitys on
 sittemmin siirtynyt käyttämään Javascriptiä

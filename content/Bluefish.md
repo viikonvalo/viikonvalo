@@ -39,7 +39,7 @@ tiedostoa suoraan, tarvitsematta noutaa sitä omalle koneelle ja kopioida
 muokkauksen jälkeen takaisin. Tämä ominaisuus on [webbisivun
 mukaan](http://bluefish.openoffice.nl/features.html) vaillinaisesti
 toteutettu Bluefishin Windows ja Mac OS X -versioissa.
-![](Bluefish.png "fig:Bluefish.png")
+![](/images/Bluefish.png "fig:Bluefish.png")
 
 Käytä Bluefishiä jos kirjoitat webbisivuja käsin, siis itse kirjoitat
 .html ja .css tiedostot. Toinen tapahan on käyttää
@@ -80,7 +80,7 @@ Käyttöohjeet
 :   [Bluefish Wiki](http://bfwiki.tellefsen.net/index.php/Main_Page)
 
 Katso myös
-:   [Notepad++](Notepad++), [GNU Emacs](GNU_Emacs)
+:   [Notepad++](Notepadpp), [GNU Emacs](GNU_Emacs)
 
 {{% wrapper class="psgallery" %}}
 -   [Juuri käynnistetty](/images/Bluefish_1.png)

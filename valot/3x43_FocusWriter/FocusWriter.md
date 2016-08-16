@@ -26,7 +26,7 @@ sisennykseen. Käyttöliittymän tarkoitus on vapauttaa kirjoittaja
 toisaalta häiritsevistä käyttöliittymäkomponenteista ja toisaalta
 ajattelemasta tekstin muotoilua kirjoitusprosessin aikana. Ohjelman
 tallennusmuotona on standardi Open Document Format, eli esimerkiksi
-[LibreOfficen](LibreOffice Writer) ja OpenOfficen
+[LibreOfficen](LibreOffice_Writer) ja OpenOfficen
 Writer-ohjelmien käyttämä odt-päätteinen tiedosto. Tarkoituksena onkin,
 että tekstin ulkoasuun liittyvät tyyliasetukset sekä muut muotoilut
 voidaan tehdä varsinaisen kirjoitusprosessin jälkeen valmiiseen tekstiin

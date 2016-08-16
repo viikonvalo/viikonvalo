@@ -29,7 +29,7 @@ klassinen musiikki vapaasti saataville sekä äänityksenä että
 nuotinnoksena. Nuotit kirjoitettiin ohjelmalla
 [MuseScore](MuseScore) ja soittajaksi saatiin [Kimiko
 Ishizaka](http://www.opengoldbergvariations.org/kimiko-ishizaka-open-goldberg-variations-pianist).
-![](Goldberg-TheresaKnott_piano.png "fig:Goldberg-TheresaKnott_piano.png")
+![](/images/Goldberg-TheresaKnott_piano.png "fig:Goldberg-TheresaKnott_piano.png")
 
 Soittaja on aikamoinen moniottelija, hän on menestynyt myös
 voimanostossa ja painonnostossa
@@ -72,7 +72,7 @@ Kotisivu
 
 Lisenssi
 :   [Creative Commons Zero
-    license](Creative Commons Zero license),
+    license](CC0),
     <http://creativecommons.org/publicdomain/zero/1.0/>
 
 Toimii seuraavilla alustoilla

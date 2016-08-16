@@ -78,8 +78,8 @@ pdf-tiedostoksi kääntävänä run.sh-tiedostona. LaTeX-muotoisten
 tiedostojen käyttö tarvitsee luonnollisesti asennetun LaTeX-ympäristön.
 OpenDocument-tiedostot Semantik tallentaa myöskin pyydettyyn hakemistoon
 ja sieltä niitä voidaan käsitellä ja näyttää edelleen [LibreOffice
-Writer](LibreOffice Writer "wikilink")- ja [LibreOffice
-Impress](LibreOffice Impress "wikilink") -ohjelmilla.
+Writer](LibreOffice_Writer "wikilink")- ja [LibreOffice
+Impress](LibreOffice_Impress "wikilink") -ohjelmilla.
 
 Käsitekartan osille voidaan datan lisäksi määrittää myös erilaisia
 muuttujia avain-arvo -pareina. Koko käsitekarttaa koskevat muuttujat,

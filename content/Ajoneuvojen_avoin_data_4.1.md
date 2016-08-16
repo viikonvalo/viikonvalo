@@ -25,7 +25,7 @@ tietoa. Aineisto on lisensoitu [Creative Commons Nimeä 4.0 Kansainvälinen] -li
 Aineisto koostuu ZIP-pakatusta CSV-tiedostosta (comma separated values), jossa on
 yhtensä 5 088 354 riviä aineistoa. Kokoa aineistolla on purettuna 836 megatavua ja
 pakattuna 255 megatavua. Suuren kokonsa takia aineistoa ei kannata koettaa yrittää avata
-esimerkiksi [LibreOffice Calc](LibreOffice_Calc)-taulukkolaskentaohjelmalla tai tekstieditorilla.
+esimerkiksi LibreOffice Calc -taulukkolaskentaohjelmalla tai tekstieditorilla.
 Parempi vaihtoehto on tuoda aineisto johonkin tietokantajärjestelmään, kuten [SQLite](SQLite),
 jolla siihen on helppoa suorittaa hakuja tai selata esimerkiksi
 [graafisella käyttöliittymällä](DB_Browser_for_SQLite). Aineisto on mahdollista lukea

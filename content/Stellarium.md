@@ -35,7 +35,7 @@ Kotisivu
 :   <http://www.stellarium.org/fi/>
 
 Lisenssi
-:   [GNU GPL](GNU GPL "wikilink")
+:   [GNU GPL](GNU_GPL "wikilink")
 
 Toimii seuraavilla alustoilla
 :   Linux, Mac OS X, Windows

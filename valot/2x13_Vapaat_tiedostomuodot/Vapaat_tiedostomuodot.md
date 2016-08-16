@@ -201,7 +201,7 @@ SVG-muotoisia kuvia voi katsella käytännössä millä tahansa modernilla
 www-selaimella, kuten [Firefox](Firefox "wikilink"), lukuun ottamatta
 joitain mobiiliselaimien malleja. SVG-kuvia voi käyttää esimerkiksi
 [LibreOffice
-Writer](LibreOffice Writer "wikilink")-tekstinkäsittelyohjelmassa ja
+Writer](LibreOffice_Writer "wikilink")-tekstinkäsittelyohjelmassa ja
 saman toimistopaketin esitystyökalussa Impressissä. Myös taitto-ohjelma
 [Scribus](Scribus "wikilink") osaa hyödyntää SVG-kuvia. Kuvien luomiseen
 sopii vaikka [Inkscape](Inkscape "wikilink")-piirtotyökalu. Muun muassa
@@ -215,7 +215,7 @@ muunnettuina joidenkin yhä suosittujen vanhojen selainten puuttuvan
 SVG-tuen takia.
 
 Wikipedian lisäksi vapaita SVG-muotoisia tiedostoja voi ladata itselleen
-[Open Clip Art Library](Open Clip Art Library "wikilink") -palvelun
+[Open Clip Art Library](Open_Clip_Art_Library "wikilink") -palvelun
 sivuilta.
 
 **Tiedostonäytteet:**

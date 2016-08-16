@@ -34,7 +34,7 @@ ssh-ohjelma ja joudutaan varomaan, ettei sitä suljeta vahingossa. Jos paikallin
 syystä sammuu tai verkossa ilmenee häiriötä, katkeaa myös yhteys etäkoneelle ja samalla ohjelman
 suoritus keskeytyy. Tällaisessa tilanteessa voidaan hyödyntää Screeniä.
 
-Eräs usein käytetty sovellutus on Screenin käyttö yhdessä [Irssi](irssi)-IRC-sovelluksen kanssa.
+Eräs usein käytetty sovellutus on Screenin käyttö yhdessä [Irssi](Irssi)-IRC-sovelluksen kanssa.
 Koska IRC-keskustelukanavilla käytävä keskustelu on reaaliaikaista ja käyttäjä näkee vain ne
 keskustelut, jotka tapahtuvat hänen ollessa paikalla, haluaa moni keskustelija jättää IRC-sovelluksensa
 päälle myös silloin, kun eivät itse ole tietokoneen ääressä. Yksi toimivaksi todettu tapa on hankkia ssh-tunnukset

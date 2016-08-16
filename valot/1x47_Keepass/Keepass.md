@@ -28,7 +28,7 @@ palveluissa pitäisi käyttää aina eri salasanoja, sillä jos jokin
 palveluista vuotaa salasanat tai ei jostain muusta syystä olekaan
 luotettava, ovat muut käyttäjätilit silti turvassa.
 
-![](Lukko_avaimia.png "fig:Lukko_avaimia.png") Käyttäjätunnusten ja
+![](/images/Lukko_avaimia.png "fig:Lukko_avaimia.png") Käyttäjätunnusten ja
 salasanojen hallintaan on kehitetty ohjelmia, kuten KeePass ja KeePassX.
 Nämä taltioivat tunnukset ja salasanat yhteen tietokantaan, joka
 suojataan salakirjoittamalla niin, että niihin pääsee käsiksi vain

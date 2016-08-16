@@ -25,7 +25,7 @@ yläkoulukäyttöön tarkoitetut Avoin matematiikka -kirjat. Osaa on jo
 käytetty opetuskäytössä ja osa materiaalista on niin tuoretta, että se
 odottaa vielä ensimmäistä käyttöönottajaansa.
 
-Kirjoista [Vapaa matikka 1](Vapaa matikka 1) ja Vapaa matikka
+Kirjoista [Vapaa matikka 1](Vapaa_matikka_1) ja Vapaa matikka
 2 ovat ensimmäiset kirjat uudessa lukion pitkän matematiikan
 kirjasarjassa. Näiden kirjojen ensimmäiset versiot kirjoitettiin syksyn
 ja talven 2012 aikana kahdessa Oppikirjamaratoniksi kutsutussa

@@ -57,7 +57,7 @@ kuviot, kaavat, kaaviot) hallinta sekä polkujen piirtämiset.
 
 Words käyttää oletuksena tallennusmuotona OpenDocument-standardin
 tekstinkäsittelytiedostomuotoa, eli samaa ODT-tiedostomuotoa kuin
-esimerkiksi [LibreOffice Writer](LibreOffice Writer). Se osaa
+esimerkiksi [LibreOffice Writer](LibreOffice_Writer). Se osaa
 avata ainakin jollain tarkkuudella myös MicroSoftin Word-tiedostomuotoja
 sekä muutamaa muuta tiedostomuotoa. Tallentamiseen ohjelma tarjoaa
 OpenDocument-tiedostomuotoja, HTML:ää sekä mobi- ja epub-muotoisia
@@ -85,7 +85,7 @@ Stage käyttää samanlaista sivupalkkia kuin Words ja Sheets. Sen käyttö
 on suoraviivaista ja selkeää. Yksinkertaisten esitysten tekeminen on
 sillä hyvin helppoa. Käytettävyydeltään Stage tuntui paikoin
 miellyttävämmältä kuin LibreOfficen vastaava työkalu
-[Impress](LibreOffice Impress). Erityisesti Stage on selvästi
+[Impress](LibreOffice_Impress). Erityisesti Stage on selvästi
 Impressiä kevyempi käyttää. Stage osaa myös näyttää esitystilassa
 ollessaan itse esityksen yhdellä näytöllä sekä esittäjän näkymän
 muistiinpanoineen ja kelloineen toisella näytöllä.

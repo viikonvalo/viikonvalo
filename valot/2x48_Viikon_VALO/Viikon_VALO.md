@@ -21,17 +21,17 @@ artikkeliinsa ehtinyt Viikon VALO on vuoden 2011 alussa perustettu
 sivusto, joka esittelee joka viikko jonkin **V**apaan ja **A**voimen
 **L**ähdekoodin **O**hjelman eli VALOn, vapaata materiaalia tarjoavan
 sivuston tai muun läheisesti näihin liittyvän asian, kuten [Vapaat
-tiedostomuodot](Vapaat tiedostomuodot "wikilink"). Luetuimpien
+tiedostomuodot](Vapaat_tiedostomuodot "wikilink"). Luetuimpien
 artikkeleiden joukossa ovat muun muassa Linux-jakeluista [Ubuntu
-11.04](Ubuntu 11.04 "wikilink"), [Debian
-GNU/Linux](Debian GNU/Linux "wikilink") ja [Ubuntu
-12.04](Ubuntu 12.04 "wikilink") kertovat artikkelit sekä
+11.04](Ubuntu_11.04 "wikilink"), [Debian
+GNU/Linux](Debian_GNU_Linux "wikilink") ja [Ubuntu
+12.04](Ubuntu_12.04 "wikilink") kertovat artikkelit sekä
 sovellusohjelmista tekstikäsittelyohjelma [LibreOffice
-Writer](LibreOffice Writer "wikilink"), www-selain
+Writer](LibreOffice_Writer "wikilink"), www-selain
 [Firefox](Firefox) ja mediasoitin
 [Clementine](Clementine). Materiaalipankeista suosituimpia
 ovat olleet vapaita leikekuvia tarjoava [Open Clip Art
-Library](Open Clip Art Library "wikilink") sekä sähköinen kirjasto
+Library](Open_Clip_Art_Library "wikilink") sekä sähköinen kirjasto
 [Project Gutenberg](Project_Gutenberg). Viikon VALO
 -projektin pyrkimyksenä on tuoda jo tunnettujen avoimen lähdekoodin
 ohjelmien lisäksi laajempaan tietoisuuteen myös pienempiä ja vähemmin
@@ -66,7 +66,7 @@ Tämä mahdollistaisi artikkelien käyttämisen pohjana esimerkiksi
 paperilehdessä julkaistavaan avoimen lähdekoodin ohjelmista kertovaan
 juttusarjaan. Suurin osa Viikon VALO -sivustolla käytetyistä
 piirroskuvituksista on peräisin [Open Clip Art
-Libraryn](Open Clip Art Library "wikilink") kuvavarastoista ja loput on
+Libraryn](Open_Clip_Art_Library "wikilink") kuvavarastoista ja loput on
 pääosin piirretty itse. Itse piirretyt kuvat on tyypillisesti myös
 lisätty Open Clip Art Libraryn valikoimiin.
 

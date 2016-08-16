@@ -26,7 +26,7 @@ tekstinkäsittelyohjelman toiminnallisuudet ja loput ominaisuudet on
 toteutettu lisäosina, joita voi asentaa ja ottaa pois käytöstä tarpeen
 mukaan. Ohjelman tukemia avattavia tiedostomuotoja ovat sen oman
 tiedostomuodon lisäksi muun muassa OpenOfficen ja [LibreOfficen
-Writer](LibreOffice Writer "wikilink")-tekstinkäsittelyohjelmien tukema
+Writer](LibreOffice_Writer "wikilink")-tekstinkäsittelyohjelmien tukema
 odt-tiedostomuoto, MS Wordin doc- ja docx-muodot, MS Worksin
 tiedostomuoto, WordPerfectin tallennusmuoto, rich text format (rtf) sekä
 html. Tallennuksen AbiWord osaa tehdä lisäksi useassa muussakin
@@ -81,8 +81,8 @@ Asennus
     Linux-jakeluihin AbiWord löytyy suoraan paketinhallinnan kautta.
 
 Esimerkkitiedostoja
-:   [Viikon_valo-65.abw](files/Viikon_valo-65.abw)
-:   [Viikon_valo-65.pdf](files/Viikon_valo-65.pdf)
+:   [Viikon_valo-65.abw](http://viikonvalo.fi/files/Viikon_valo-65.abw)
+:   [Viikon_valo-65.pdf](http://viikonvalo.fi/files/Viikon_valo-65.pdf)
 
 {{% wrapper class="psgallery" %}}
 -   [AbiWord on kevyt tekstinkäsittelyohjelma, joka tukee oleellisimpia

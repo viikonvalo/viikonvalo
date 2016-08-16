@@ -44,7 +44,7 @@ tiedostojen kanssa, sillä niiden muutokset ovat helposti esitettävissä.
 Ohjelmakoodin lisäksi GitHub sopiikin myös muun tekstimuotoisen
 materiaalin versionhallintaan ja jakamiseen. Hyvä esimerkki tällaisesta
 projektista on [Oppikirjamaraton](https://github.com/Oppikirjamaraton)
-ja sen [Vapaa matikka](Vapaa matikka 1) -kirjasarja.
+ja sen [Vapaa matikka](Vapaa_matikka_1) -kirjasarja.
 
 GitHub sisältää sosiaalisen median kaltaisia ominaisuuksia. Kuka tahansa
 käyttäjä pystyy

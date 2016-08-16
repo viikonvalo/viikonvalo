@@ -66,7 +66,7 @@ tai poistetaan. Tässä vaiheessa tulisi tarkistaa työkopion tiedostojen
 olevan kunnossa, esimerkiksi ohjelmoitaessa katsotaan ettei kääntäjä
 ilmoita virheistä tiedostoissa. Työkopio tallennetaan varastoalueelle
 toiminnolla commit (eli tehdään check-in). Tästä työnkulusta on kaavio
-kuvassa [SVN Työnkulkukaavio](/images/Svn-tyonkulkukaavio.png).
+kuvassa [SVN Työnkulkukaavio](http://viikonvalo.fi/images/Svn-tyonkulkukaavio.png).
 
 Projektin muut työntekijät menettelevät samalla tavalla. Muiden tekemät
 muutokset saa omaan työkopioonsa tekemällä **svn update**, se noutaa

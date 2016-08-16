@@ -23,7 +23,7 @@ esitetään ohjelmassa selkeästi keskusteluina, jolloin ei tarvitse
 pomppia viestistä toiseen vaan samaan asiayhteyteen liittyvät viestit
 ovat yhtä aikaa esillä. Ominaisuuksiltaan se ei ole läheskään yhtä
 monipuolinen kuin esimerkiksi [Mozilla
-Thunderbird](Mozilla Thunderbird "wikilink"), josta löytyy toiminto
+Thunderbird](Thunderbird "wikilink"), josta löytyy toiminto
 lähes joka tarpeeseen. Päin vastoin Gearyn asetukset on sähköpostitilien
 tietojen lisäksi rajoitettu noin kouralliseen rastiruutuja, joilla saa
 esimerkiksi kytkettyä lähetysikkunan oikoluvun päälle tai pois. Kun

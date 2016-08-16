@@ -57,7 +57,7 @@ Asennus
 :   Ohjelma on asennettavissa Jolla-puhelimen sovelluskaupasta.
 
 Muita esiteltyjä muistiinpano- ja tehtävätyökaluja
-:   [Emacs Org-mode](Emacs Org-mode)
+:   [Emacs Org-mode](Emacs_Org-mode)
 :   [Tomboy](Tomboy)
 :   [TiddlyWiki](TiddlyWiki)
 

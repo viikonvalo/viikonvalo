@@ -89,7 +89,7 @@ Mediawiki-ohjelmistolla toimivia rinnakkaisia sisarprojekteja, kuten
 [Wikibooks](http://www.wikibooks.org/)-wikikirjastoa,
 [Wikiversity](http://www.wikiversity.org/)-virtuaaliopistoa.
 Erikielisten Wikipedioiden yhteisenä mediapankkina käytetään [Wikimedia
-Commons](Wikimedia Commons "wikilink")-palvelua, josta löytyy suuri
+Commons](Wikimedia_Commons "wikilink")-palvelua, josta löytyy suuri
 kirjasto kuva-, ääni- ja videotiedostoja.
 
 Wikipedian rahoitus on täysin riippuvainen vapaaehtoisten

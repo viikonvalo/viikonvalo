@@ -1,5 +1,6 @@
+baseurl = "http://localhost:1313/"
 #baseurl = "/viikonvalo/"
-baseurl = "http://viikonvalo.fi"
+#baseurl = "http://viikonvalo.fi"
 languageCode = "fi-fi"
 title = "Viikon VALO"
 theme = "vvalo"
@@ -9,6 +10,10 @@ Paginate = 10
 alusta = "alustat"
 tag = "tagit"
 category = "categories"
+
+[blackfriday]
+    sourceRelativeLinksEval = true
+    smartypants = false
 
 [[menu.main]]
     name = "Alustat"

@@ -76,7 +76,7 @@ tietotekniikasta saatavan hyödyn.
 Vapaiden ohjelmien lisäksi cd-levylle on koottu pdf-muotoisia oppaita
 vapaisiin ohjelmiin liittyvistä aiheista. Mukana on muun muassa ohjeita
 sähköpostin turvaamiseen GPG-salauksella, muita salaukseen liittyviä
-oppaita, [FLOSS Manuals](FLOSS Manuals "wikilink") -projektin tuottamia
+oppaita, [FLOSS Manuals](FLOSS_Manuals "wikilink") -projektin tuottamia
 oppaita levyllä olevien ohjelmien käyttämiseen sekä opetushallituksen,
 oikeusministeriön ja valtionvarainministeriön julkaisemia ohjeita ja
 suosituksia.
@@ -98,7 +98,7 @@ Kotisivu
 :   <http://valo-cd.fi>
 
 Lisenssi
-:   [GNU GPL](GNU GPL "wikilink") ja muita vapaita lisenssejä
+:   [GNU GPL](GNU_GPL "wikilink") ja muita vapaita lisenssejä
 
 Toimii seuraavilla alustoilla
 :   Windows

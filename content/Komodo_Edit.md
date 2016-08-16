@@ -63,7 +63,7 @@ siinä, että editorin välilehteen voi avata selainnäkymän esimerkiksi
 luotavan html-tiedoston esikatselua varten. Tämän lisäksi Komodoon voi
 asentaa Mozilla-laajennoksia samoin kuin
 [Firefox](Firefox)-selaimeen ja
-[Thunderbird](Mozilla Thunderbird)-sähköpostiohjelmaan.
+[Thunderbird](Thunderbird)-sähköpostiohjelmaan.
 Komodo tukee myös JavaScriptin käyttöä editorin toimintojen
 laajentamiseen omilla makroilla. Toinen käytettävissä oleva kieli on
 Python, jonka tulkki tulee editorin mukana.

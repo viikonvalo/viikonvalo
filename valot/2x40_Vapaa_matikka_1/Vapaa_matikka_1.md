@@ -24,7 +24,7 @@ Kirjan kirjoittamiseen käytettyä
 [hackathon](http://en.wikipedia.org/wiki/Hackathon)-menetelmää on
 aiemmin käytetty tyypillisesti avoimen lähdekoodin
 ohjelmointiprojekteissa sekä niiden dokumentaatioiden kirjoittamisessa
-esimerkiksi [FLOSS Manuals](FLOSS Manuals)-projektissa. [Vesa
+esimerkiksi [FLOSS Manuals](FLOSS_Manuals)-projektissa. [Vesa
 Linja-ahon](http://linja-aho.blogspot.com) vetämässä
 oppikirjamaratonissa kirjoitettu kirja tarkoitettiin alusta alkaen
 julkaistavaksi vapaalla [Creative Commons

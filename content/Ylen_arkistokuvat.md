@@ -17,7 +17,7 @@ lisenssillä julkaisemia arkistovalokuvia Yleisradion historiasta.**
 
 ![ ](/images/valo180-ylen_arkistokuvat.png "fig:valo180-ylen_arkistokuvat.png")
 Yleisradio on julkaissut joukon sen historiaa dokumentoivia valokuvia
-[Creative Commonsin](Creative Commons) vapaalla
+[Creative Commonsin](http://creativecommons.fi/) vapaalla
 CC-BY-lisenssillä. Kuvat on julkaistu Flickr-palvelussa. Kuvat ovat
 Yleisradion omaa tuotantoa 1920—1960-luvulta ja ne ovat niin vanhoja,
 että niillä ei ole enää tekijänoikeussuojaa. Ne ovat siis vapaasti

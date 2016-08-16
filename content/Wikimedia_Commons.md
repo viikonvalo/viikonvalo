@@ -85,7 +85,7 @@ rajoittavat teosten muokkaamista tai niiden kaupallista käyttöä.
 Muita Wikimedia Commonsissa käytettyjä vapaita lisenssejä ovat [GNU Free
 Documentation License
 (GFDL)](http://en.wikipedia.org/wiki/en:GNU_Free_Documentation_License),
-[GNU GPL](GNU GPL "wikilink"), [GNU LGPL](GNU LGPL "wikilink"), Free Art
+[GNU GPL](GNU_GPL "wikilink"), [GNU LGPL](GNU_LGPL "wikilink"), Free Art
 License ja Open Data Commons.
 
 Kotisivu

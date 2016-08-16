@@ -68,7 +68,8 @@ matematiikan, fysiikan ja ohjelmoinnin opetuskäyttöön erilaisia
 sovelluksia.
 
 <div id="jsxgbox" style="width: 500px; height: 500px; background-color: white; margin: 1em auto;"></div>
-Esimerkki GeoGebralla piirretystä ja JSXGraphilla näytetystä interaktiivisesta [kuvasta](../files/something.ggb).
+Esimerkki GeoGebralla piirretystä ja JSXGraphilla näytetystä
+interaktiivisesta [kuvasta](http://viikonvalo.fi/files/something.ggb).
 <script type="text/javascript" src="../files/jsxgraphcore.js"></script>
 <script type="text/javascript" src="../files/GeogebraReader.min.js"></script>
 <script type="text/javascript" src="../files/jsxgraph-esimerkki.js"></script>

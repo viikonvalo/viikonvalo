@@ -50,7 +50,7 @@ Chromiumin ulkoasua voi muokata samoilla teemoilla kuin Chrome-selaimen
 ulkoasua. Käytettävissä on myös sama sovelluskauppa kuin Googlen
 brändillä varustetussa Chromessa. Mediatiedostomuodoista Chromium tukee
 oletuksena vain [avoimia
-tiedostomuotoja](Vapaat tiedostomuodot "wikilink") (Ogg Vorbix, Ogg
+tiedostomuotoja](Vapaat_tiedostomuodot "wikilink") (Ogg Vorbix, Ogg
 Theora ja WebM), mutta suljetuille mediatiedostomuodoille on mahdollista
 asentaa tuki ulkoisina koodekkeina. Chromium on myös erinomainen työkalu
 web-kehittäjälle, sillä se sisältää hyvät välineet web-sivun rakenteen

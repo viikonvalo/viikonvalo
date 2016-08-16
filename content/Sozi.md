@@ -87,7 +87,7 @@ Asennus
     varmistaa, että paketti *libcanberra-gtk-module* on asennettuna.
 
 Esimerkki
-:   [Viikon VALO presents SOZI](files/vv-sozi.svg)
+:   [Viikon VALO presents SOZI](http://viikonvalo.fi/files/vv-sozi.svg)
 
 Käyttöohjeet
 :   [Lyhyt video-tutoriaali Sozin

@@ -140,6 +140,6 @@ Käyttöohjeet
     (englanniksi)](http://www.debian.org/releases/wheezy/amd64/release-notes/ch-whats-new.en.html)
 -   [debian.fi Wiki](http://debian.fi/)
 -   Viikon VALO edellisestä Debian-julkaisusta:
-    [Debian\_GNU/Linux](Debian_GNU/Linux "wikilink")
+    [Debian GNU/Linux](Debian_GNU_Linux "wikilink")
 
 

@@ -20,7 +20,7 @@ LibreOffice-toimisto-ohjelmiston yhtenä osana on esitysgrafiikan
 luomiseen ja esittämiseen tarkoitettu Impress. Impress on toiminnaltaan
 ja ominaisuuksiltaan saman kaltainen kuin Microsoft Officen PowerPoint
 taikka Googlen Docs-palvelun vastaava ohjelma. Impressin oma
-tallennusmuoto on [vapaa](Vapaat tiedostomuodot)
+tallennusmuoto on [vapaa](Vapaat_tiedostomuodot)
 [OpenDocument](http://fi.wikipedia.org/wiki/OpenDocument)-tiedostomuoto,
 mutta se osaa avata ja tallentaa myös PowerPoint-ohjelman uudempia ja
 vanhempia tiedostomuotoja.
@@ -44,7 +44,7 @@ muita esityksen pitämistä helpottavia toimintoja. Esitystilassa on
 lisäksi mahdollista käyttää hiirtä korostuskynänä, jolla esityksestä voi
 merkitä tärkeitä kohtia.
 
-![](400px-LibreOffice_Mimetype_Icon_Draft2_Ivan.png "fig:400px-LibreOffice_Mimetype_Icon_Draft2_Ivan.png")
+![](/images/400px-LibreOffice_Mimetype_Icon_Draft2_Ivan.png "fig:400px-LibreOffice_Mimetype_Icon_Draft2_Ivan.png")
 Uusia esitysten ulkoasuja voi luoda muokkaamalla niin kutsuttuja
 *master-sivuja* eli *pohjatyylisivuja*. Tähän tilaan siirrytään
 valitsemalla valikosta "Näytä", "Pohja", "Dian pohja" ("View", "Master",
@@ -101,8 +101,8 @@ VALO-CD
     [VALO-CD](http://www.valo-cd.fi/ilmainen_libreoffice)-kokoelmasta.
 
 Esimerkkitiedostoja
-:   [Viikon_valo.odp](files/Viikon_valo.odp)
-:   [Viikon_valo.pdf](files/Viikon_valo.pdf)
+:   [Viikon_valo.odp](http://viikonvalo.fi/files/Viikon_valo.odp)
+:   [Viikon_valo.pdf](http://viikonvalo.fi/files/Viikon_valo.pdf)
 
 {{% wrapper class="psgallery" %}}
 -   [Ohjelman aloitusnäkymä ja

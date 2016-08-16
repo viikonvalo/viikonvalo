@@ -209,7 +209,7 @@ Suljetut tiedostomuodot ja multimediakoodekit
 Linux Mint - Xfce-versio
 ------------------------
 
-[Linux Mint](Linux Mint 16) on Ubuntuun perustuva, mutta
+[Linux Mint](Linux_Mint_16) on Ubuntuun perustuva, mutta
 Lubuntua ja Xubuntua "itsenäisempi", Linux-jakelu, jonka asennuslevyistä
 on tarjolla useampi versio erilaisilla käyttöliittymillä. Xfce-versio
 käyttää samaa työpöytäympäristöä kuin Xubuntu, mutta sen ulkoasu,

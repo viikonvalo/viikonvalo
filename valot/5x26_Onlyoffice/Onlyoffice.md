@@ -25,7 +25,7 @@ Yhteisöpalvelin puolestaan tarjoaa Onlyofficen käyttöön kirjautumistunnukset
 
 Dokumentti- ja yhteisöpalvelimia voi käyttää yhdessä tai erikseen. Yksin käytettynä dokumenttipalvelin toimii kuin tavallinen toimisto-ohjelma ilman verkkotallennusta tai tiedostojen verkkojakoa. Yksinään yhteisöpalvelin puolestaan toimii työryhmäpalvelimena ja verkkotallennuspalveluna, jossa ei kuitenkaan ole asiakirjojen muokkausmahdollisuutta. Kun molemmat palvelimet ovat asennettuina, voidaan yhteisöpalvelimelle kertoa, mistä osoitteesta dokumenttipalvelin löytyy, jolloin yhteisöpalvelimen asiakirjoja voi myös muokata.
 
-Yhteisöpalvelimen dokumenttiselaimeen voi integroida käytettäväksi myös ulkopuolisia pilvitallennuspalveluita, kuten [OwnCloud](OwnCloud). Tällöin palveluun tallennetut tiedostot näkyvät Onlyofficessa yhtenä kansiona.
+Yhteisöpalvelimen dokumenttiselaimeen voi integroida käytettäväksi myös ulkopuolisia pilvitallennuspalveluita, kuten [OwnCloud]({{< relref "ownCloud.md" >}}). Tällöin palveluun tallennetut tiedostot näkyvät Onlyofficessa yhtenä kansiona.
 
 Onlyofficen asetukset ovat muokattavissa esimerkiksi oman yrityksen tarpeiden mukaan vaihtamalla otsikoksi ja logoksi haluamansa nimet ja kuvat.
 

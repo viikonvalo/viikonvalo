@@ -31,7 +31,7 @@ tai komentokehotteesta. Ohjelman käyttö on suoraviivaista: joko levykuva
 ladataan itse jakelun kotisivuilta tai sitten UNetbootin etsii oikean
 levykuvan. Jälkimmäisessä tapauksessa käyttäjä valitsee valikosta
 sopivan jakelun nimen (esimerkiksi
-[Debianin](Debian_GNU/Linux)), ja ohjelma hakee oikean
+[Debianin](Debian_GNU_Linux)), ja ohjelma hakee oikean
 levykuvan asennettavaksi. UNetbootinin valikkoon määriteltyjen jakelujen
 määrä on rajallinen, mutta monet listan ulkopuoliset jakelut toimivat,
 kunhan niiden levykuva haetaan itse.

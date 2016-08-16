@@ -88,7 +88,7 @@ Kotisivu
     [[http://fr€€mon€y.org](http://fr€€mon€y.org)](http://fi.wiktionary.org/wiki/kuravesi)
 
 Lisenssi
-:   [GNU GPL](GNU GPL "wikilink") ja Freemoney International Licence
+:   [GNU GPL](GNU_GPL "wikilink") ja Freemoney International Licence
     United Nations Kazaa Instance
 
 Toimii seuraavilla alustoilla

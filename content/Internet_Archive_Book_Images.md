@@ -72,7 +72,7 @@ Muuta tietoa
 Muita vastaavia Viikon VALOja
 :   [Ylen arkistokuvat](Ylen_arkistokuvat)
 :   [Mechanical Curator
-    collection](Mechanical Curator collection "wikilink")
+    collection](Mechanical_Curator_collection "wikilink")
 :   [Flickr: Creative Commons](Flickr:_Creative_Commons)
 :   [Wikimedia Commons](Wikimedia_Commons)
 

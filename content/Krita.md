@@ -15,11 +15,11 @@ Pageimage = "valo207-krita.png"
 **Krita on vapaa piirto- ja kuvankäsittelyohjelma.**
 
 ![ ](/images/valo207-krita.png "fig:valo207-krita.png")
-Krita on [Calligra Suite](Calligra Suite) -ohjelmistopakettiin kuuluva piirto-
+Krita on [Calligra Suite](Calligra_Suite) -ohjelmistopakettiin kuuluva piirto-
 ja kuvankäsittelyohjelma, joka on asennettavissa Linux- ja
 BSD-järjestelmien lisäksi myös Windows-alustalle. Krita on alun perin
 [KDE](KDE)-työpöytäympäristölle suunnattu vaihtoehto
-esimerkiksi [Gimp](Gimp)-kuvankäsittelyohjelmalle. Kritalla
+esimerkiksi [Gimp](GIMP)-kuvankäsittelyohjelmalle. Kritalla
 voi tehdä perinteistä kuvankäsittelyä, mutta erityisesti Krita on
 suunnattu toimimaan digitaalisena piirto- ja maalaustyökaluna. Krita
 tarjoaa erinomaiset maalaustyökalut useine siveltimineen ja muokattavine
