@@ -80,10 +80,8 @@ Asennus
 -   [Sky Map käynnistyy](/images/sky_map-1.png)
 -   [Sky Map näyttää, miltä tähtitaivas näyttäisi laitteen osoittamassa
     suunnassa.](/images/sky_map-2.png)
--   [Sky Map näyttää ruudulla tähtiä, tähtikuvioita, [Messierin
-    kohteita](http://fi.wikipedia.org/wiki/Messierin_luettelo),
-    planeettoja,
-    [meteoriparvia](http://en.wikipedia.org/wiki/Meteor_shower),
+-   [Sky Map näyttää ruudulla tähtiä, tähtikuvioita, Messierin
+    kohteita, planeettoja, meteoriparvia,
     koordinaatiston sekä horisontin. Kunkin näistä voi erikseen kytkeä
     pois näkyvistä.](/images/sky_map-3.png)
 -   [Valintoina löytyvät esimerkiksi kohteen haku, yötila, kohdegalleria
