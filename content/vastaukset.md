@@ -48,8 +48,8 @@ Aiemmin sivuston ylläpidossa oli mukana nyt jo lopetettu yhdistys Linux-Aktivaa
 
 Läheisesti sivustoon liittyy myös [VALO-CD-projekti][VALO-CD], joka jakelee osaa tälläkin sivustolla esitellyistä ohjelmista CD-levyn muodossa.
 
-[![Turuxi](images/turuxi-logo.png "Turuxi")][Turuxi]
-[![Porixi](images/Porixi-logo.png "Porixi")][Porixi]
+[![Turuxi](/images/turuxi-logo.png "Turuxi")][Turuxi]
+[![Porixi](/images/Porixi-logo.png "Porixi")][Porixi]
 [![VALO-CD](http://www.valo-cd.fi/img/valo-160x60.gif "VALO-CD")][VALO-CD]
 
 <a id="osallistu"></a>
@@ -88,7 +88,7 @@ Mistä sivuston muu kuvitus on peräisin? Voiko sitä saada käyttöön jostain?
 --------------------------------------------------------------------------
 
 {{% wrapper class="rightimage" %}}
-![Punatulkku](images/Eurasian_Bullfinch.png)
+![Punatulkku](/images/Eurasian_Bullfinch.png)
 {{% /wrapper %}}
 Sivuston kuvituksessa on käytetty melko paljon
 materiaalia [Open Clip Art Library][OCAL] -sivustolta, joka jakaa
@@ -103,8 +103,10 @@ viereisen kuvan [punatulkku](http://www.openclipart.org/detail/103141).
 Paljonko sivustolla on kävijöitä?
 ---------------------------------
 
-Yksittäisten sivujen alareunasta näkee kyseisen sivun latauskertojen määrän. Tällä hetkellä
-sivusto ei seuraa käyttäjiään muilla keinoin.
+Sivustolla ei valitettavasti ole tällä hetkellä kävijälaskureita. Tällä hetkellä
+sivusto ei myöskään seuraa käyttäjiään muilla keinoin, kuten Googlen analytiikalla.
+Myöskään sosiaalisen median jakonappulat eivät ota yhteyttä palveluihin ennen kuin
+niitä painetaan.
 
 
 
