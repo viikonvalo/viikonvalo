@@ -15,6 +15,16 @@ Pageimage = "valo32-floss_manuals.png"
 **FLOSS Manualsin käyttöoppaat opastavat käyttämään avoimen lähdekoodin
 ohjelmia.**
 
+**Päivitys 25.8.2016:**
+Suomenkielinen FLOSS Manuals on suljettu vuonna 2015 resurssipulan vuoksi.
+Suomenkieliset kirjat ovat yhä luettavissa
+[kansainvälisen sivuston kautta](http://write.flossmanuals.net/groups/floss-manuals-suomeksi/).
+
+Englanninkielinen sivusto löytyy osoitteesta <http://en.flossmanuals.net>.
+Lisäksi osasta oppaista löytyy myös PDF-versio myös
+[VALO-CD:n sivuilta](http://www.valo-cd.fi/ohjelmat).
+(*Pesasa*)
+
 ![ ](/images/valo32-floss_manuals.png "fig:valo32-floss_manuals.png") [Suomen
 FLOSS Manuals](http://fi.flossmanuals.net/) on kokoelma suomenkielisiä
 vapaiden ja avoimen lähdekoodin ohjelmien käyttöoppaita. Oppaiden
