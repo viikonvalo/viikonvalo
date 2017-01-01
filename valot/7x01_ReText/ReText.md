@@ -88,7 +88,7 @@ Eli valmiina taulukkona:
 
 Taulukoiden muokkaaminen tässä muodossa voi olla hankalaa, jos pystyviivojen haluaa pysyvän
 kohdakkain. Tämän takia ReTextissä on erikseen päälle kytkettävä "table mode", jolloin ohjelma
-pyrkii automaattisesti kohdistamaan pystyviivat, jonkin taulukon "solun" leveyden muuttuessa.
+pyrkii automaattisesti kohdistamaan pystyviivat taulukon "solun" leveyden muuttuessa.
 Tämä toiminnallisuus on oletuksena kuitenkin pois päältä.
 
 Jos ohjelmalla on käytössään [MathJax]-kirjasto, on ReTextillä mahdollista kirjoittaa myös matemaattisia
