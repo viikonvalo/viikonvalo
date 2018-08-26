@@ -36,7 +36,7 @@ kaksi on keskeneräisiä.
     ympäri maapallon
 
 {{% wrapper class="rightimage" %}}
-![](Kuva:Librivox-logo.jpg)
+![](/images/Librivox-logo.jpg)
 {{% /wrapper %}}
 **Näin se toimii** Librivoxin vapaaehtoiset osallistujat lukevat lukuja
 tekijänoikeussuojaamattomista kirjoista, jonka jälkeen syntyneet

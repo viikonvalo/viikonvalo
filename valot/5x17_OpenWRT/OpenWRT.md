@@ -82,7 +82,7 @@ Asennus
     asennukseen OpenWRT:n sivustolta.
 
 Muita vastaavia
-:   [DD-WRT](http://dd-wrt.com)
+:   [DD-WRT](https://dd-wrt.com)
 
 {{% wrapper class="psgallery" %}}
 -   [OpenWRT tervehtii ssh:lla sisään kirjautunutta käyttäjää Zyxelin
