@@ -48,7 +48,7 @@ Synkronointi
 ------------
 
 Joplin tukee sisällön synkronointia laitteiden välillä pilvipalveluiden kautta.
-Sisäänrakennettu tuki löytyy Nextcloud-, Dropbox-, OneDrive-palveluille sekä
+Sisäänrakennettu tuki löytyy [Nextcloud](Nextcloud)-, Dropbox-, OneDrive-palveluille sekä
 yleiselle WebDAV-protokollalle. Lisäksi synkronointi voidaan tehdä myös tiedostojärjestelmään,
 eli esimerkiksi verkkolevylle tai johonkin hakemistoon, joka synkronoidaan muilla keinoin
 johonkin palveluun.
