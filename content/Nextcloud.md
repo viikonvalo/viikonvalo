@@ -257,6 +257,7 @@ Logo
 -   [Nextcloud News -mobiilisovellus synkronoituu Nextcloudin selainpohjaisen News-RSS-lukijan kanssa.](/images/nextcloud-14.jpg)
 -   [Kirjanmerkkisovelluksen kanssa toimiva mobiilisovellus.](/images/nextcloud-15.jpg)
 -   [Power Ampache kykenee streamaamaan musiikkia Nextcloudin Ampache-yhteensopivasta Musiikki-sovelluksesta.](/images/nextcloud-16.jpg)
+-   [Nextcloudin jakotoiminnot ovat käytettävissä suoraan Dolphin-tiedostohallintaohjelmassa.](/images/nextcloud-17.jpg)
 {{% /wrapper %}}
 
 *Teksti: Pesasa* <br />
