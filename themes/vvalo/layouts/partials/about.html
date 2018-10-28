@@ -17,8 +17,9 @@
 			<p>Viikonvalo.fi esittelee joka viikko jonkin vapaan avoimen lähdekoodin ohjelman taikka vapaata materiaalisisältöä tarjoavan palvelun.</p>
 
 			<p>Pysy kuulolla!</p>
-			
-			{{ if .RSSlink }}
-			<a href="{{ .RSSlink }}"><img src="{{ .Site.BaseURL }}/images/feed.png" alt="RSS" /></a>
-			{{ end }}
+
+		{{ with .OutputFormats.Get "rss" }}
+		    {{ printf `<a href="%sindex.xml"><img src="%s/images/feed.png" alt="RSS" /></a>` $.Site.BaseURL $.Site.BaseURL | safeHTML }}
+		{{ end }}
+
 		</aside>

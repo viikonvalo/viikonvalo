@@ -4,8 +4,13 @@
 	<div class="content-wrapper">
 		<section id="content">
 			<div class="inner categorylist">
-				
-				<h1 class="categorytitle">{{.Title}}</h1>
+
+				<h1 class="categorytitle">
+					{{.Title}}
+					{{ with .OutputFormats.Get "rss" }}
+					    {{ printf `<a href="%s"><img src="%s/images/feed.png" alt="RSS" /></a>` .Permalink $.Site.BaseURL | safeHTML }}
+					{{ end }}
+				</h1>
 
 {{ range .Data.Pages }}
 		<article class="post">
@@ -25,7 +30,7 @@
 			</div>
 		</section>
 
-{{ partial "about.html" . }}		
+{{ partial "about.html" . }}
 
 {{ partial "navigation.html" .}}
 

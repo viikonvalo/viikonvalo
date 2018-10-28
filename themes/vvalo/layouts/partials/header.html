@@ -8,10 +8,8 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
         <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
 <!--         <link rel="alternate" href="{{ .Site.BaseURL }}/rss.xml" type="application/rss+xml" title="{{ .Site.Title }} RSS"> -->
-
-    {{ if .RSSlink }}
-        <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-        <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ range .AlternativeOutputFormats }}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
         <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/tomorrow-night.css" type="text/css" />
         <script src="{{ .Site.BaseURL }}/scripts/modernizr-2.6.1.min.js"></script>

@@ -1,9 +1,10 @@
-baseurl = "http://localhost:1313/"
+#baseurl = "http://localhost:1313/"
 #baseurl = "/viikonvalo/"
-#baseurl = "http://viikonvalo.fi"
+baseurl = "https://viikonvalo.fi"
 languageCode = "fi-fi"
 title = "Viikon VALO"
 theme = "vvalo"
+rssLimit = 15
 Paginate = 10
 
 [taxonomies]
@@ -20,19 +21,19 @@ category = "categories"
     weight = 8
     identifier = "alustat"
     url = "/alustat/"
-    
+
 [[menu.main]]
     name = "Tagit"
     weight = 9
     identifier = "tagit"
     url = "/tagit/"
-    
+
 [[menu.main]]
     name = "Ohjelmien neljä vapautta"
     weight = 10
     identifier = "neljavapautta"
     url = "http://fsfe.org/projects/wsis/fs.fi.html"
-    
+
 [[menu.main]]
     name = "Vapaa ohjelmisto (Wikipedia)"
     weight = 20
@@ -80,4 +81,3 @@ category = "categories"
     weight = 7
     identifier = "jaajotain"
     url = "http://viikonvalo.fi/Jaa_jotain"
-

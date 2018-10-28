@@ -4,9 +4,12 @@
 	<div class="content-wrapper">
 		<section id="content">
 			<div class="inner">
-				
+
 				<h1 class="title">
 					{{.Title}}
+					{{ with .OutputFormats.Get "rss" }}
+					    {{ printf `<a href="%s"><img src="%s/images/feed.png" alt="RSS" /></a>` .Permalink $.Site.BaseURL | safeHTML }}
+					{{ end }}
 				</h1>
 				<ul class="taxonomylist">
 				{{ $data := .Data }}
@@ -17,7 +20,7 @@
 			</div>
 		</section>
 
-{{ partial "about.html" . }}		
+{{ partial "about.html" . }}
 
 {{ partial "navigation.html" .}}
 
