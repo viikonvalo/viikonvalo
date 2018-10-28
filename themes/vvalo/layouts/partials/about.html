@@ -19,7 +19,7 @@
 			<p>Pysy kuulolla!</p>
 
 		{{ with .OutputFormats.Get "rss" }}
-		    {{ printf `<a href="%sindex.xml"><img src="%s/images/feed.png" alt="RSS" /></a>` $.Site.BaseURL $.Site.BaseURL | safeHTML }}
+		    {{ printf `<a href="%s/index.xml"><img src="%s/images/feed.png" alt="RSS" /></a>` $.Site.BaseURL $.Site.BaseURL | safeHTML }}
 		{{ end }}
 
 		</aside>
