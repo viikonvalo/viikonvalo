@@ -2,8 +2,8 @@
 date = "2018-09-01T15:02:01+03:00"
 Title = "Nextcloud"
 Description = "Nextcloud on pilvipalvelualusta, jonka voi asentaa omalle palvelimelle. Omassa ylläpidossa oma data on omassa hallinnassa."
-Week = ""
-Number = 1
+Week = "8x02"
+Number = 247
 Alustat = ["Linux"]
 Tagit = ["Palvelin", "Pilvipalvelu"]
 Type = "post"
@@ -231,7 +231,7 @@ Asiakasohjelmia saatavilla seuraaville alustoille
 :   Windows, MacOS, Linux, Android, iOS
 
 Asennus
-:   Latauslinkit ja -ohjeet löytyvät ohjelman kotisivulta. 
+:   Latauslinkit ja -ohjeet löytyvät ohjelman kotisivulta.
 
 Muita vastaavia
 :   [ownCloud](ownCloud)
